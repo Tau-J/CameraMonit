@@ -1,0 +1,1489 @@
+[{
+	"reference": "HP:HPSBUX9402-006   |   URL:http://packetstormsecurity.org/advisories/hpalert/006   |   XF:hp-dce9000(2061)   |   URL:http://xforce.iss.net/static/2061.php",
+	"votes": "   ACCEPT(4) Cole, Foat, Frech, Stracener",
+	"comments": null,
+	"phase": "Proposed (20010912)",
+	"id": "CVE-1999-1247",
+	"description": "Vulnerability in HP Camera component of HP DCE/9000 in HP-UX 9.x allows attackers to gain root privileges.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20011205 Axis Network Camera known default password vulnerability   |   URL:http://archives.neohapsis.com/archives/bugtraq/2001-12/0050.html   |   BUGTRAQ:20011206 Re: Axis Network Camera known default password vulnerability   |   URL:http://archives.neohapsis.com/archives/bugtraq/2001-12/0061.html   |   BID:3640   |   URL:http://www.securityfocus.com/bid/3640   |   XF:axis-default-admin-passwd(7665)   |   URL:http://www.iss.net/security_center/static/7665.php",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20050714)",
+	"id": "CVE-2001-1543",
+	"description": "Axis network camera 2120, 2110, 2100, 200+ and 200 contains a default administration password \"pass\", which allows remote attackers to gain access to the camera.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20030527 CORE-2003-0403: Axis Network Camera HTTP Authentication Bypass   |   URL:http://marc.info/?l=bugtraq&m=105406374731579&w=2   |   MISC:http://www.coresecurity.com/common/showdoc.php?idx=329&idxseccion=10   |   CERT-VN:VU#799060   |   URL:http://www.kb.cert.org/vuls/id/799060   |   BID:7652   |   URL:http://www.securityfocus.com/bid/7652   |   OSVDB:4804   |   URL:http://www.osvdb.org/4804   |   SECTRACK:1006854   |   URL:http://securitytracker.com/id?1006854   |   SECUNIA:8876   |   URL:http://secunia.com/advisories/8876   |   XF:axis-admin-authentication-bypass(12104)   |   URL:http://xforce.iss.net/xforce/xfdb/12104",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20030501)",
+	"id": "CVE-2003-0240",
+	"description": "The web-based administration capability for various Axis Network Camera products allows remote attackers to bypass access restrictions and modify configuration via an HTTP request to the admin/admin.shtml containing a leading // (double slash).",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20040227 InnoMedia VideoPhone Authorization Bypass   |   URL:http://marc.info/?l=bugtraq&m=107799556111784&w=2   |   OSVDB:4809   |   URL:http://www.osvdb.org/4809   |   SECTRACK:1009522   |   URL:http://securitytracker.com/alerts/2004/Mar/1009522.html   |   XF:InnoMedia-videophone-bypass-authentication(15636)   |   URL:http://xforce.iss.net/xforce/xfdb/15636",
+	"votes": "   NOOP(5) Armstrong, Christey, Cole, Cox, Wall",
+	"comments": " Christey> According to SecurityTracker.com, the initial advisory  |     erroneously mentions Axis 1200:  |     MISC:http://securitytracker.com/alerts/2004/Mar/1009522.html",
+	"phase": "Modified (20060816)",
+	"id": "CVE-2004-0334",
+	"description": "InnoMedia VideoPhone allows remote attackers to bypass Basic Authorization via an HTTP request to (1) videophone_admindetail.asp, (2) videophone_syscfg.asp, (3) videophone_upgrade.asp, or (4) videophone_sysctrl.asp that contains a trailing / (slash).  NOTE: the original report mentioned AXIS 2100 Network Camera, but this was likely a cut-and-paste error.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20040831 D-Link DCS-900 IP camera remote exploit that change the IP   |   URL:http://marc.info/?l=bugtraq&m=109396893820049&w=2   |   MISC:http://miscname.com/public/dcs-900/   |   BID:11072   |   URL:http://www.securityfocus.com/bid/11072   |   SECTRACK:1011100   |   URL:http://securitytracker.com/id?1011100   |   SECUNIA:12425   |   URL:http://secunia.com/advisories/12425   |   XF:dlink-dcs900-ip-modification(17171)   |   URL:http://xforce.iss.net/xforce/xfdb/17171",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20050221)",
+	"id": "CVE-2004-1650",
+	"description": "D-Link DCS-900 Internet Camera listens on UDP port 62976 for an IP address, which allows remote attackers to change the IP address of the camera via a UDP broadcast packet.",
+	"status": "Candidate"
+}, {
+	"reference": "FULLDISC:20040822 [PoC] Nasty bug(s) found in Axis Network Camera/Video Servers   |   URL:http://archives.neohapsis.com/archives/fulldisclosure/2004-08/0948.html   |   FULLDISC:20040831 Axis Network Camera and Video Server Security Advisory   |   URL:http://archives.neohapsis.com/archives/fulldisclosure/2004-08/1282.html   |   BID:11011   |   URL:http://www.securityfocus.com/bid/11011   |   OSVDB:9121   |   URL:http://www.osvdb.org/9121   |   SECTRACK:1011056   |   URL:http://securitytracker.com/id?1011056   |   SECUNIA:12353   |   URL:http://secunia.com/advisories/12353   |   XF:asix-command-execution(17076)   |   URL:http://xforce.iss.net/xforce/xfdb/17076",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20050818)",
+	"id": "CVE-2004-2425",
+	"description": "Axis Network Camera 2.40 and earlier, and Video Server 3.12 and earlier, allows remote attackers to execute arbitrary commands via accent (`) and possibly other shell metacharacters in the query string to virtualinput.cgi.",
+	"status": "Candidate"
+}, {
+	"reference": "FULLDISC:20040822 [PoC] Nasty bug(s) found in Axis Network Camera/Video Servers   |   URL:http://archives.neohapsis.com/archives/fulldisclosure/2004-08/0948.html   |   FULLDISC:20040831 Axis Network Camera and Video Server Security Advisory   |   URL:http://archives.neohapsis.com/archives/fulldisclosure/2004-08/1282.html   |   BID:11011   |   URL:http://www.securityfocus.com/bid/11011   |   OSVDB:9122   |   URL:http://www.osvdb.org/9122   |   SECTRACK:1011056   |   URL:http://securitytracker.com/id?1011056   |   SECUNIA:12353   |   URL:http://secunia.com/advisories/12353   |   XF:axis-directory-traversal(17079)   |   URL:http://xforce.iss.net/xforce/xfdb/17079",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20050818)",
+	"id": "CVE-2004-2426",
+	"description": "Directory traversal vulnerability in Axis Network Camera 2.40 and earlier, and Video Server 3.12 and earlier, allows remote attackers to bypass authentication via a ..  (dot dot) in an HTTP POST request to ServerManager.srv, then use these privileges to conduct other activities, such as modifying files using editcgi.cgi.",
+	"status": "Candidate"
+}, {
+	"reference": "FULLDISC:20040822 [PoC] Nasty bug(s) found in Axis Network Camera/Video Servers   |   URL:http://archives.neohapsis.com/archives/fulldisclosure/2004-08/0948.html   |   OSVDB:9123   |   URL:http://www.osvdb.org/9123   |   OSVDB:9125   |   URL:http://www.osvdb.org/9125   |   OSVDB:9126   |   URL:http://www.osvdb.org/9126   |   OSVDB:9127   |   URL:http://www.osvdb.org/9127   |   OSVDB:9128   |   URL:http://www.osvdb.org/9128   |   OSVDB:9129   |   URL:http://www.osvdb.org/9129   |   OSVDB:9130   |   URL:http://www.osvdb.org/9130   |   SECTRACK:1011056   |   URL:http://securitytracker.com/id?1011056",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20050818)",
+	"id": "CVE-2004-2427",
+	"description": "Axis Network Camera 2.40 and earlier, and Video Server 3.12 and earlier, allows remote attackers to obtain sensitive information via direct requests to (1) admin/getparam.cgi, (2) admin/systemlog.cgi, (3) admin/serverreport.cgi, and (4) admin/paramlist.cgi, modify system information via (5) setparam.cgi and (6) factorydefault.cgi, or (7) cause a denial of service (reboot) via restart.cgi.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20040606 Linksys Web Camera File Inclusion Vuln   |   URL:http://archives.neohapsis.com/archives/bugtraq/2004-06/0103.html   |   BID:10476   |   URL:http://www.securityfocus.com/bid/10476   |   OSVDB:7112   |   URL:http://www.osvdb.org/7112   |   SECTRACK:1010489   |   URL:http://securitytracker.com/id?1010489   |   SECUNIA:11811   |   URL:http://secunia.com/advisories/11811/   |   XF:linksys-webcamera-file-include(16339)   |   URL:http://xforce.iss.net/xforce/xfdb/16339",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20051025)",
+	"id": "CVE-2004-2507",
+	"description": "Absolute path traversal vulnerability in main.cgi in Linksys WVC11B Wireless-B Internet Video Camera allows remote attackers to read arbitrary files via an absolute pathname in the next_file parameter.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20040613 Linksys Web Camera Cross-site Scripting Vuln   |   URL:http://archives.neohapsis.com/archives/bugtraq/2004-06/0215.html   |   BID:10533   |   URL:http://www.securityfocus.com/bid/10533   |   SECTRACK:1010424   |   URL:http://securitytracker.com/id?1010424   |   SECUNIA:11881   |   URL:http://secunia.com/advisories/11881   |   XF:linksys-webcamera-main-xss(16415)   |   URL:http://xforce.iss.net/xforce/xfdb/16415",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20051025)",
+	"id": "CVE-2004-2508",
+	"description": "Cross-site scripting (XSS) vulnerability in main.cgi in Linksys WVC11B Wireless-B Internet Video Camera allows remote attackers to inject arbitrary web script or HTML via the next_file parameter.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:http://www.autistici.org/fdonato/advisory/VideoCamServer1.0.0-adv.txt   |   SECTRACK:1013860   |   URL:http://securitytracker.com/id?1013860",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20050503)",
+	"id": "CVE-2005-1422",
+	"description": "Raysoft/Raybase Video Cam Server 1.0.0 beta allows remote attackers to conduct administrator operations and cause a denial of service (server or camera shutdown) via a direct request to admin.html.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20050826 Multiple PHP Images Galleries EXIF Metadata XSS Vulnerabilities   |   URL:http://marc.info/?l=bugtraq&m=112511025414488&w=2   |   CONFIRM:http://sourceforge.net/project/shownotes.php?release_id=352576   |   MISC:http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=325285   |   DEBIAN:DSA-1148   |   URL:http://www.us.debian.org/security/2006/dsa-1148   |   BID:14668   |   URL:http://www.securityfocus.com/bid/14668   |   SECTRACK:1014800   |   URL:http://securitytracker.com/id?1014800   |   SECUNIA:16594   |   URL:http://secunia.com/advisories/16594/   |   SECUNIA:21502   |   URL:http://secunia.com/advisories/21502   |   XF:photopost-exif-xss(22020)   |   URL:http://xforce.iss.net/xforce/xfdb/22020",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20050829)",
+	"id": "CVE-2005-2734",
+	"description": "Cross-site scripting (XSS) vulnerability in Gallery 1.5.1-RC2 and earlier allows remote attackers to inject arbitrary web script or HTML via EXIF data, such as the Camera Model Tag.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20050826 Multiple PHP Images Galleries EXIF Metadata XSS Vulnerabilities   |   URL:http://marc.info/?l=bugtraq&m=112511025414488&w=2   |   MISC:http://cedri.cc/advisories/EXIF_XSS.txt   |   BID:14669   |   URL:http://www.securityfocus.com/bid/14669   |   SECUNIA:16595   |   URL:http://secunia.com/advisories/16595/   |   SECTRACK:1014801   |   URL:http://securitytracker.com/id?1014801   |   XF:photopost-exif-xss(22020)   |   URL:http://xforce.iss.net/xforce/xfdb/22020",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20050829)",
+	"id": "CVE-2005-2735",
+	"description": "Cross-site scripting (XSS) vulnerability in phpGraphy 0.9.9a and earlier allows remote attackers to inject arbitrary web script or HTML via EXIF data, such as the Camera Model Tag.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20050826 Multiple PHP Images Galleries EXIF Metadata XSS Vulnerabilities   |   URL:http://marc.info/?l=bugtraq&m=112511025414488&w=2   |   MISC:http://cedri.cc/advisories/EXIF_XSS.txt   |   BID:14670   |   URL:http://www.securityfocus.com/bid/14670   |   SECTRACK:1014802   |   URL:http://securitytracker.com/id?1014802   |   SECUNIA:16596   |   URL:http://secunia.com/advisories/16596/   |   XF:photopost-exif-xss(22020)   |   URL:http://xforce.iss.net/xforce/xfdb/22020",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20050829)",
+	"id": "CVE-2005-2736",
+	"description": "Cross-site scripting (XSS) vulnerability in YaPig 0.95 and earlier allows remote attackers to inject arbitrary web script or HTML via EXIF data, such as the Camera Model Tag.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20050826 Multiple PHP Images Galleries EXIF Metadata XSS Vulnerabilities   |   URL:http://marc.info/?l=bugtraq&m=112511025414488&w=2   |   MISC:http://cedri.cc/advisories/EXIF_XSS.txt   |   BID:14671   |   URL:http://www.securityfocus.com/bid/14671   |   SECTRACK:1014803   |   URL:http://securitytracker.com/id?1014803   |   SECUNIA:16597   |   URL:http://secunia.com/advisories/16597/   |   XF:photopost-exif-xss(22020)   |   URL:http://xforce.iss.net/xforce/xfdb/22020",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20050829)",
+	"id": "CVE-2005-2737",
+	"description": "Cross-site scripting (XSS) vulnerability in PhotoPost PHP Pro 5.1 allows remote attackers to inject arbitrary web script or HTML via EXIF data, such as the Camera Model Tag.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20060517 Mobotix IP Network Cameras Multiple XSS   |   URL:http://www.securityfocus.com/archive/1/archive/1/434289/100/0/threaded   |   BUGTRAQ:20060822 Vendor Statement: fixed Mobotix IP Network Cameras Multiple XSS bug   |   URL:http://www.securityfocus.com/archive/1/archive/1/444018/100/0/threaded   |   MISC:http://www.eazel.es/media/advisory001.html   |   VIM:20060821 CVE-2006-2490 (Mobotix) vendor ACK   |   URL:http://www.attrition.org/pipermail/vim/2006-August/000980.html   |   BID:18022   |   URL:http://www.securityfocus.com/bid/18022   |   VUPEN:ADV-2006-1857   |   URL:http://www.vupen.com/english/advisories/2006/1857   |   OSVDB:25621   |   URL:http://www.osvdb.org/25621   |   OSVDB:25622   |   URL:http://www.osvdb.org/25622   |   OSVDB:25623   |   URL:http://www.osvdb.org/25623   |   SECTRACK:1016128   |   URL:http://securitytracker.com/id?1016128   |   SECUNIA:20151   |   URL:http://secunia.com/advisories/20151   |   SREASON:929   |   URL:http://securityreason.com/securityalert/929   |   XF:mobotix-multiple-xss(26538)   |   URL:http://xforce.iss.net/xforce/xfdb/26538",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20060519)",
+	"id": "CVE-2006-2490",
+	"description": "Multiple cross-site scripting (XSS) vulnerabilities in Mobotix IP Network Cameras M1 1.9.4.7 and M10 2.0.5.2, and other versions before 2.2.3.18 for M10/D10 and 3.0.3.31 for M22, allow remote attackers to inject arbitrary web script or HTML via URL-encoded values in (1) the query string to help/help, (2) the get_image_info_abspath parameter to control/eventplayer, and (3) the source_ip parameter to events.tar.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20060710 Digital Armaments Security Advisory 10.07.2006: Flexwath Authorization Bypassing and XSS Vulnerability   |   URL:http://www.securityfocus.com/archive/1/archive/1/439648/100/0/threaded   |   BUGTRAQ:20060721 Re: Digital Armaments Security Advisory 10.07.2006: Flexwath Authorization Bypassing and XSS Vulnerability   |   URL:http://www.securityfocus.com/archive/1/archive/1/440893/100/100/threaded   |   BUGTRAQ:20061103 Re: Digital Armaments Security Advisory 10.07.2006: Flexwath Authorization Bypassing and XSS Vulnerability   |   URL:http://www.securityfocus.com/archive/1/archive/1/450478/100/0/threaded   |   MISC:http://www.digitalarmaments.com/2006300687985463.html   |   BID:18936   |   URL:http://www.securityfocus.com/bid/18936   |   SECUNIA:20994   |   URL:http://secunia.com/advisories/20994   |   XF:flexwatch-unspecified-xss(27655)   |   URL:http://xforce.iss.net/xforce/xfdb/27655",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20060714)",
+	"id": "CVE-2006-3603",
+	"description": "Cross-site scripting (XSS) vulnerability in index.php in FlexWATCH Network Camera 3.0 and earlier allows remote attackers to inject arbitrary web script or HTML via the URL.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20060710 Digital Armaments Security Advisory 10.07.2006: Flexwath Authorization Bypassing and XSS Vulnerability   |   URL:http://www.securityfocus.com/archive/1/archive/1/439648/100/0/threaded   |   BUGTRAQ:20060721 Re: Digital Armaments Security Advisory 10.07.2006: Flexwath Authorization Bypassing and XSS Vulnerability   |   URL:http://www.securityfocus.com/archive/1/archive/1/440893/100/100/threaded   |   BUGTRAQ:20061103 Re: Digital Armaments Security Advisory 10.07.2006: Flexwath Authorization Bypassing and XSS Vulnerability   |   URL:http://www.securityfocus.com/archive/1/archive/1/450478/100/0/threaded   |   MISC:http://www.digitalarmaments.com/2006300687985463.html   |   BID:18948   |   URL:http://www.securityfocus.com/bid/18948   |   SECUNIA:20994   |   URL:http://secunia.com/advisories/20994   |   XF:flexwatch-admin-auth-bypass(27656)   |   URL:http://xforce.iss.net/xforce/xfdb/27656",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20060714)",
+	"id": "CVE-2006-3604",
+	"description": "Directory traversal vulnerability in FlexWATCH Network Camera 3.0 and earlier allows remote attackers to bypass access restrictions for (1) admin/aindex.asp or (2) admin/aindex.html via a .. (dot dot) and encoded / (%2f) sequence in the URL.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:http://bugs.shaftnet.org/task/113   |   CONFIRM:http://po.shaftnet.org/po_stable_changelog   |   BID:21351   |   URL:http://www.securityfocus.com/bid/21351   |   VUPEN:ADV-2006-4766   |   URL:http://www.vupen.com/english/advisories/2006/4766   |   SECUNIA:23176   |   URL:http://secunia.com/advisories/23176   |   XF:photoorganizer-auth-security-bypass(30577)   |   URL:http://xforce.iss.net/xforce/xfdb/30577",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20061203)",
+	"id": "CVE-2006-6246",
+	"description": "Photo Organizer 2.32b and earlier does not properly check the ownership of certain objects, which allows remote attackers to gain unauthorized access via vectors related to (1) camera del, (2) camera edit, (3) folder/album deletion, (4) photo.move, (5) content.indexer, (6) folder.content, and possibly other operations.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://www.axis.com/techsup/software/acc/files/acc_security_update_1_00.pdf   |   CERT-VN:VU#355809   |   URL:http://www.kb.cert.org/vuls/id/355809   |   BID:23816   |   URL:http://www.securityfocus.com/bid/23816   |   VUPEN:ADV-2007-1663   |   URL:http://www.vupen.com/english/advisories/2007/1663   |   OSVDB:35602   |   URL:http://osvdb.org/35602   |   SECUNIA:25093   |   URL:http://secunia.com/advisories/25093   |   XF:axis-activex-savebmp-bo(34133)   |   URL:http://xforce.iss.net/xforce/xfdb/34133",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20070425)",
+	"id": "CVE-2007-2239",
+	"description": "Stack-based buffer overflow in the SaveBMP method in the AXIS Camera Control (aka CamImage) ActiveX control before 2.40.0.0 in AxisCamControl.ocx in AXIS 2100, 2110, 2120, 2130 PTZ, 2420, 2420-IR, 2400, 2400+, 2401, 2401+, 2411, and Panorama PTZ allows remote attackers to cause a denial of service (Internet Explorer crash) or execute arbitrary code via a long argument.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://cweb.canon.jp/drv-upd/webview/notification.html   |   JVN:JVN#06735665   |   URL:http://jvn.jp/jp/JVN%2306735665/   |   BID:23560   |   URL:http://www.securityfocus.com/bid/23560   |   VUPEN:ADV-2007-1461   |   URL:http://www.vupen.com/english/advisories/2007/1461   |   OSVDB:35019   |   URL:http://osvdb.org/35019   |   SECUNIA:24940   |   URL:http://secunia.com/advisories/24940",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20070514)",
+	"id": "CVE-2007-2680",
+	"description": "Cross-site scripting (XSS) vulnerability in the management interface in Canon Network Camera Server VB100 and VB101 with firmware 3.0 R69 and earlier, and VB150 with firmware 1.1 R39 and earlier, allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.",
+	"status": "Candidate"
+}, {
+	"reference": "MILW0RM:4120   |   URL:http://www.milw0rm.com/exploits/4120   |   CONFIRM:http://jvn.jp/en/jp/JVN16767117/041520/index.html   |   CONFIRM:http://pro.sony.com/bbsc/ssr/cat-securitycameras/resource.downloads.bbsccms-assets-cat-camsec-downloads-AffectedNetworkCameras.shtml   |   JVN:JVN#16767117   |   URL:http://jvn.jp/en/jp/JVN16767117/index.html   |   JVNDB:JVNDB-2009-000012   |   URL:http://jvndb.jvn.jp/ja/contents/2009/JVNDB-2009-000012.html   |   BID:24684   |   URL:http://www.securityfocus.com/bid/24684   |   OSVDB:39479   |   URL:http://osvdb.org/39479   |   XF:sncp5-prmsetnetworkparam-bo(35133)   |   URL:http://xforce.iss.net/xforce/xfdb/35133",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20070629)",
+	"id": "CVE-2007-3488",
+	"description": "Heap-based buffer overflow in the viewer ActiveX control in Sony Network Camera SNC-RZ25N before 1.30; SNC-P1 and SNC-P5 before 1.29; SNC-CS10 and SNC-CS11 before 1.06; SNC-DF40N and SNC-DF70N before 1.18; SNC-RZ50N and SNC-CS50N before 2.22; SNC-DF85N, SNC-DF80N, and SNC-DF50N before 1.12; and SNC-RX570N/W, SNC-RX570N/B, SNC-RX550N/W, SNC-RX550N/B, SNC-RX530N/W, and SNC-RX530N/B 3.00 and 2.x before 2.31; allows remote attackers to execute arbitrary code via a long first argument to the PrmSetNetworkParam method.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://fdcl.svn.sourceforge.net/viewvc/*checkout*/fdcl/trunk/Changelog   |   CONFIRM:http://sourceforge.net/forum/forum.php?forum_id=721006   |   BID:25220   |   URL:http://www.securityfocus.com/bid/25220",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20070808)",
+	"id": "CVE-2007-4233",
+	"description": "Multiple unspecified vulnerabilities in Camera Life before 2.6 allow attackers to cause a denial of service via unknown vectors.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:http://fdcl.svn.sourceforge.net/viewvc/*checkout*/fdcl/trunk/Changelog   |   MISC:http://sourceforge.net/forum/forum.php?forum_id=721006   |   SECUNIA:26319   |   URL:http://secunia.com/advisories/26319   |   XF:cameralife-unspecified-security-bypass(35839)   |   URL:http://xforce.iss.net/xforce/xfdb/35839",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20070808)",
+	"id": "CVE-2007-4234",
+	"description": "Unspecified vulnerability in Camera Life before 2.6 allows remote attackers to download private photos via unspecified vectors associated with the names of the photos.  NOTE: some of these details are obtained from third party information.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20070915 Axis 207W Wireless Camera Web Interface - Multiple Vulnerabilities   |   URL:http://www.securityfocus.com/archive/1/archive/1/479600/100/0/threaded   |   MISC:http://airscanner.com/security/07080701_axis.htm   |   MISC:http://www.informit.com/articles/article.aspx?p=1016102   |   SECTRACK:1018699   |   URL:http://www.securitytracker.com/id?1018699   |   SREASON:3145   |   URL:http://securityreason.com/securityalert/3145",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20070918)",
+	"id": "CVE-2007-4926",
+	"description": "The AXIS 207W camera uses a base64-encoded cleartext username and password for authentication, which allows remote attackers to obtain sensitive information by sniffing the wireless network or by leveraging unspecified other vectors.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20070915 Axis 207W Wireless Camera Web Interface - Multiple Vulnerabilities   |   URL:http://www.securityfocus.com/archive/1/archive/1/479600/100/0/threaded   |   MISC:http://airscanner.com/security/07080701_axis.htm   |   MISC:http://www.informit.com/articles/article.aspx?p=1016102   |   BID:25678   |   URL:http://www.securityfocus.com/bid/25678   |   SECTRACK:1018699   |   URL:http://www.securitytracker.com/id?1018699   |   SECUNIA:26831   |   URL:http://secunia.com/advisories/26831   |   SREASON:3145   |   URL:http://securityreason.com/securityalert/3145",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20070918)",
+	"id": "CVE-2007-4927",
+	"description": "axis-cgi/buffer/command.cgi on the AXIS 207W camera allows remote authenticated users to cause a denial of service (reboot) via many requests with unique buffer names in the buffername parameter in a start action.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20070915 Axis 207W Wireless Camera Web Interface - Multiple Vulnerabilities   |   URL:http://www.securityfocus.com/archive/1/archive/1/479600/100/0/threaded   |   MISC:http://airscanner.com/security/07080701_axis.htm   |   MISC:http://www.informit.com/articles/article.aspx?p=1016102   |   SREASON:3145   |   URL:http://securityreason.com/securityalert/3145",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20070918)",
+	"id": "CVE-2007-4928",
+	"description": "The AXIS 207W camera stores a WEP or WPA key in cleartext in the configuration file, which might allow local users to obtain sensitive information.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20070915 Axis 207W Wireless Camera Web Interface - Multiple Vulnerabilities   |   URL:http://www.securityfocus.com/archive/1/archive/1/479600/100/0/threaded   |   MISC:http://airscanner.com/security/07080701_axis.htm   |   MISC:http://www.informit.com/articles/article.aspx?p=1016102   |   BID:25678   |   URL:http://www.securityfocus.com/bid/25678   |   SECTRACK:1018699   |   URL:http://www.securitytracker.com/id?1018699   |   SECUNIA:26831   |   URL:http://secunia.com/advisories/26831   |   SREASON:3145   |   URL:http://securityreason.com/securityalert/3145",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20070918)",
+	"id": "CVE-2007-4929",
+	"description": "Multiple cross-site scripting (XSS) vulnerabilities in the AXIS 207W camera allow remote attackers to inject arbitrary web script or HTML via the camNo parameter to incl/image_incl.shtml, and other unspecified vectors.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20070915 Axis 207W Wireless Camera Web Interface - Multiple Vulnerabilities   |   URL:http://www.securityfocus.com/archive/1/archive/1/479600/100/0/threaded   |   MISC:http://airscanner.com/security/07080701_axis.htm   |   MISC:http://www.informit.com/articles/article.aspx?p=1016102   |   BID:25678   |   URL:http://www.securityfocus.com/bid/25678   |   SECTRACK:1018699   |   URL:http://www.securitytracker.com/id?1018699   |   SECUNIA:26831   |   URL:http://secunia.com/advisories/26831   |   SREASON:3145   |   URL:http://securityreason.com/securityalert/3145",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20070918)",
+	"id": "CVE-2007-4930",
+	"description": "Multiple cross-site request forgery (CSRF) vulnerabilities in the AXIS 207W camera allow remote attackers to perform certain actions as administrators via (1) axis-cgi/admin/restart.cgi, (2) the user and sgrp parameters to axis-cgi/admin/pwdgrp.cgi in an add action, or (3) the server parameter to admin/restartMessage.shtml.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20070928 Owning Big Brother: How to Crack into Axis IP cameras   |   URL:http://www.securityfocus.com/archive/1/archive/1/480995/100/0/threaded   |   MISC:http://www.procheckup.com/Vulnerability_Axis_2100_research.pdf   |   BID:25837   |   URL:http://www.securityfocus.com/bid/25837   |   OSVDB:38795   |   URL:http://osvdb.org/38795   |   OSVDB:38796   |   URL:http://osvdb.org/38796   |   SREASON:3188   |   URL:http://securityreason.com/securityalert/3188",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20071004)",
+	"id": "CVE-2007-5212",
+	"description": "Multiple cross-site scripting (XSS) vulnerabilities in the AXIS 2100 Network Camera 2.02 with firmware before 2.43 allow remote attackers to inject arbitrary web script or HTML via (1) parameters associated with saved settings, as demonstrated by the conf_SMTP_MailServer1 parameter to ServerManager.srv; or (2) the subpage parameter to wizard/first/wizard_main_first.shtml.  NOTE: an attacker can leverage a CSRF vulnerability to modify saved settings.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20070928 Owning Big Brother: How to Crack into Axis IP cameras   |   URL:http://www.securityfocus.com/archive/1/archive/1/480995/100/0/threaded   |   MISC:http://www.procheckup.com/Vulnerability_Axis_2100_research.pdf   |   BID:25837   |   URL:http://www.securityfocus.com/bid/25837   |   OSVDB:39490   |   URL:http://osvdb.org/39490   |   OSVDB:39491   |   URL:http://osvdb.org/39491   |   SREASON:3188   |   URL:http://securityreason.com/securityalert/3188",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20071004)",
+	"id": "CVE-2007-5213",
+	"description": "Multiple cross-site request forgery (CSRF) vulnerabilities in the AXIS 2100 Network Camera 2.02 with firmware 2.43 and earlier allow remote attackers to perform actions as administrators, as demonstrated by (1) an SMTP server change through the conf_SMTP_MailServer1 parameter to ServerManager.srv and (2) a hostname change through the conf_Network_HostName parameter on the Network page.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20070928 Owning Big Brother: How to Crack into Axis IP cameras   |   URL:http://www.securityfocus.com/archive/1/archive/1/480995/100/0/threaded   |   MISC:http://www.procheckup.com/Vulnerability_Axis_2100_research.pdf   |   BID:25837   |   URL:http://www.securityfocus.com/bid/25837   |   OSVDB:39492   |   URL:http://osvdb.org/39492   |   OSVDB:39493   |   URL:http://osvdb.org/39493   |   OSVDB:39494   |   URL:http://osvdb.org/39494   |   OSVDB:39495   |   URL:http://osvdb.org/39495   |   SREASON:3188   |   URL:http://securityreason.com/securityalert/3188   |   XF:axis2100-logpage-xss(36842)   |   URL:http://xforce.iss.net/xforce/xfdb/36842   |   XF:axis2100-networksettings-xss(36840)   |   URL:http://xforce.iss.net/xforce/xfdb/36840   |   XF:axis2100-videoviewing-xss(36841)   |   URL:http://xforce.iss.net/xforce/xfdb/36841",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20071004)",
+	"id": "CVE-2007-5214",
+	"description": "Multiple cross-site scripting (XSS) vulnerabilities in the AXIS 2100 Network Camera 2.02 with firmware 2.43 and earlier allow remote attackers to inject arbitrary web script or HTML via (1) the PATH_INFO to the default URI associated with a directory, as demonstrated by (a) the root directory and (b) the view/ directory; (2) parameters associated with saved settings, as demonstrated by (c) the conf_Network_HostName parameter on the Network page and (d) the conf_Layout_OwnTitle parameter to ServerManager.srv; and (3) the query string to ServerManager.srv, which is displayed on the logs page. NOTE: an attacker can leverage a CSRF vulnerability to modify saved settings.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://docs.info.apple.com/article.html?artnum=307562   |   CONFIRM:http://support.apple.com/kb/HT1232   |   APPLE:APPLE-SA-2008-03-18   |   URL:http://lists.apple.com/archives/security-announce/2008/Mar/msg00001.html   |   APPLE:APPLE-SA-2008-03-20   |   URL:http://lists.apple.com/archives/security-announce/2008/Mar/msg00003.html   |   CERT:TA08-079A   |   URL:http://www.us-cert.gov/cas/techalerts/TA08-079A.html   |   BID:28304   |   URL:http://www.securityfocus.com/bid/28304   |   BID:28363   |   URL:http://www.securityfocus.com/bid/28363   |   VUPEN:ADV-2008-0924   |   URL:http://www.vupen.com/english/advisories/2008/0924/references   |   VUPEN:ADV-2008-0957   |   URL:http://www.vupen.com/english/advisories/2008/0957/references   |   SECTRACK:1019659   |   URL:http://www.securitytracker.com/id?1019659   |   SECTRACK:1019683   |   URL:http://www.securitytracker.com/id?1019683   |   SECTRACK:1019684   |   URL:http://www.securitytracker.com/id?1019684   |   SECUNIA:29420   |   URL:http://secunia.com/advisories/29420   |   SECUNIA:29469   |   URL:http://secunia.com/advisories/29469   |   XF:macos-imageraw-bo(41294)   |   URL:http://xforce.iss.net/xforce/xfdb/41294",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20080226)",
+	"id": "CVE-2008-0987",
+	"description": "Stack-based buffer overflow in Image Raw in Apple Mac OS X 10.5.2, and Digital Camera RAW Compatibility before Update 2.0 for Aperture 2 and iPhoto 7.1.2, allows remote attackers to execute arbitrary code via a crafted Adobe Digital Negative (DNG) image.",
+	"status": "Candidate"
+}, {
+	"reference": "MILW0RM:6132   |   URL:http://www.milw0rm.com/exploits/6132   |   BID:30368   |   URL:http://www.securityfocus.com/bid/30368   |   SECUNIA:31234   |   URL:http://secunia.com/advisories/31234   |   SREASON:4047   |   URL:http://securityreason.com/securityalert/4047   |   XF:cameralife-sitemapxml-sql-injection(43991)   |   URL:http://xforce.iss.net/xforce/xfdb/43991",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20080728)",
+	"id": "CVE-2008-3355",
+	"description": "SQL injection vulnerability in sitemap.xml.php in Camera Life 2.6.2 allows remote attackers to execute arbitrary SQL commands via the id parameter in a photos action.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://panasonic.net/pcc/support/netwkcam/support/info_xss.html   |   JVN:JVN#33706820   |   URL:http://jvn.jp/en/jp/JVN33706820/index.html   |   JVNDB:JVNDB-2008-000037   |   URL:http://jvndb.jvn.jp/contents/ja/2008/JVNDB-2008-000037.html   |   VUPEN:ADV-2008-2257   |   URL:http://www.vupen.com/english/advisories/2008/2257/references   |   SECUNIA:31304   |   URL:http://secunia.com/advisories/31304   |   XF:panasonic-camera-error-xss(44118)   |   URL:http://xforce.iss.net/xforce/xfdb/44118",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20080805)",
+	"id": "CVE-2008-3482",
+	"description": "Cross-site scripting (XSS) vulnerability in the error page feature in Panasonic Network Camera BL-C111, BL-C131, BB-HCM511, BB-HCM531, BB-HCM580, BB-HCM581, BB-HCM527, and BB-HCM515 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.",
+	"status": "Candidate"
+}, {
+	"reference": "MILW0RM:6594   |   URL:http://www.milw0rm.com/exploits/6594   |   BID:31456   |   URL:http://www.securityfocus.com/bid/31456   |   SREASON:4344   |   URL:http://securityreason.com/securityalert/4344   |   XF:cameralife-image-file-upload(45492)   |   URL:http://xforce.iss.net/xforce/xfdb/45492",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20080930)",
+	"id": "CVE-2008-4366",
+	"description": "Unrestricted file upload vulnerability in the image upload component in Camera Life 2.6.2b4 allows remote authenticated users to execute arbitrary code by uploading a file with an executable extension, then accessing it via a direct request to the file in a user directory under images/photos/upload.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://www.kb.cert.org/vuls/id/MAPG-7HJKSA   |   CONFIRM:http://www.linksys.com/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=text%2Fplain&blobheadervalue2=inline%3B+filename%3DWVC54GC-V1.0_non-RoHS-v1.25_fw_ver.txt&blobkey=id&blobtable=MungoBlobs&blobwhere=1193776031728&ssbinary=true&lid=8104724130B17   |   CERT-VN:VU#528993   |   URL:http://www.kb.cert.org/vuls/id/528993   |   BID:32666   |   URL:http://www.securityfocus.com/bid/32666   |   SECUNIA:33032   |   URL:http://secunia.com/advisories/33032",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20081002)",
+	"id": "CVE-2008-4390",
+	"description": "The Cisco Linksys WVC54GC wireless video camera before firmware 1.25 sends cleartext configuration data in response to a Setup Wizard remote-management command, which allows remote attackers to obtain sensitive information such as passwords by sniffing the network.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://www.kb.cert.org/vuls/id/WDON-7M2U52   |   CERT-VN:VU#639345   |   URL:http://www.kb.cert.org/vuls/id/639345   |   BID:32665   |   URL:http://www.securityfocus.com/bid/32665   |   SECUNIA:33032   |   URL:http://secunia.com/advisories/33032",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20081002)",
+	"id": "CVE-2008-4391",
+	"description": "Stack-based buffer overflow in the SetSource method in the NetCamPlayerWeb11gv2 ActiveX control in NetCamPlayerWeb11gv2.ocx on the Cisco Linksys WVC54GC wireless video camera before firmware 1.25 allows remote attackers to execute arbitrary code via long invalid arguments.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:http://blog.guya.net/2008/10/07/malicious-camera-spying-using-clickjacking/   |   MISC:http://ha.ckers.org/blog/20081007/clickjacking-details/   |   CONFIRM:http://www.adobe.com/support/security/advisories/apsa08-08.html   |   CONFIRM:http://www.adobe.com/support/security/bulletins/apsb08-18.html   |   CONFIRM:http://support.avaya.com/elmodocs2/security/ASA-2008-440.htm   |   CONFIRM:http://support.avaya.com/elmodocs2/security/ASA-2009-020.htm   |   GENTOO:GLSA-200903-23   |   URL:http://security.gentoo.org/glsa/glsa-200903-23.xml   |   REDHAT:RHSA-2008:0945   |   URL:http://www.redhat.com/support/errata/RHSA-2008-0945.html   |   REDHAT:RHSA-2008:0980   |   URL:http://www.redhat.com/support/errata/RHSA-2008-0980.html   |   SUNALERT:248586   |   URL:http://sunsolve.sun.com/search/document.do?assetkey=1-26-248586-1   |   SUSE:SUSE-SR:2008:025   |   URL:http://lists.opensuse.org/opensuse-security-announce/2008-11/msg00001.html   |   BID:31625   |   URL:http://www.securityfocus.com/bid/31625   |   SECUNIA:34226   |   URL:http://secunia.com/advisories/34226   |   VUPEN:ADV-2008-2764   |   URL:http://www.vupen.com/english/advisories/2008/2764   |   SECTRACK:1020996   |   URL:http://www.securitytracker.com/id?1020996   |   SECUNIA:32163   |   URL:http://secunia.com/advisories/32163   |   SECUNIA:32448   |   URL:http://secunia.com/advisories/32448   |   SECUNIA:32759   |   URL:http://secunia.com/advisories/32759   |   SECUNIA:32702   |   URL:http://secunia.com/advisories/32702   |   SECUNIA:33390   |   URL:http://secunia.com/advisories/33390   |   XF:adobe-flash-click-hijacking(45721)   |   URL:http://xforce.iss.net/xforce/xfdb/45721",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20081009)",
+	"id": "CVE-2008-4503",
+	"description": "The Settings Manager in Adobe Flash Player 9.0.124.0 and earlier allows remote attackers to cause victims to unknowingly click on a link or dialog via access control dialogs disguised as normal graphical elements, as demonstrated by hijacking the camera or microphone, and related to \"clickjacking.\"",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20090123 Secunia Research: AXIS Camera Control \"image_pan_tilt\" Property Buffer Overflow   |   URL:http://www.securityfocus.com/archive/1/archive/1/500334/100/0/threaded   |   MISC:http://secunia.com/secunia_research/2008-58/   |   CONFIRM:http://www.axis.com/techsup/software/acc/files/acc_security_update_090119.pdf   |   BID:33408   |   URL:http://www.securityfocus.com/bid/33408   |   VUPEN:ADV-2009-0228   |   URL:http://www.vupen.com/english/advisories/2009/0228   |   OSVDB:51532   |   URL:http://osvdb.org/51532   |   SECUNIA:33444   |   URL:http://secunia.com/advisories/33444   |   XF:cameracontrol-activex-bo(48176)   |   URL:http://xforce.iss.net/xforce/xfdb/48176",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20081128)",
+	"id": "CVE-2008-5260",
+	"description": "Heap-based buffer overflow in the CamImage.CamImage.1 ActiveX control in AxisCamControl.ocx in AXIS Camera Control 2.40.0.0 allows remote attackers to execute arbitrary code via a long image_pan_tilt property value.",
+	"status": "Candidate"
+}, {
+	"reference": "MILW0RM:6710   |   URL:http://www.milw0rm.com/exploits/6710   |   CONFIRM:http://sourceforge.net/project/shownotes.php?group_id=70910&release_id=643552   |   BID:31689   |   URL:http://www.securityfocus.com/bid/31689   |   XF:cameralife-album-sql-injection(45803)   |   URL:http://xforce.iss.net/xforce/xfdb/45803",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20090206)",
+	"id": "CVE-2008-6086",
+	"description": "SQL injection vulnerability in album.php in Camera Life 2.6.2b4 allows remote attackers to execute arbitrary SQL commands via the id parameter, a different vector than CVE-2008-3355.",
+	"status": "Candidate"
+}, {
+	"reference": "MILW0RM:6710   |   URL:http://www.milw0rm.com/exploits/6710   |   CONFIRM:http://sourceforge.net/project/shownotes.php?group_id=70910&release_id=643552   |   BID:31689   |   URL:http://www.securityfocus.com/bid/31689   |   XF:cameralife-topic-xss(45805)   |   URL:http://xforce.iss.net/xforce/xfdb/45805",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20090206)",
+	"id": "CVE-2008-6087",
+	"description": "Cross-site scripting (XSS) vulnerability in topic.php in Camera Life 2.6.2b4 allows remote attackers to inject arbitrary web script or HTML via the name parameter.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:http://www.digitrustgroup.com/advisories/web-application-security-camera-life2.html   |   BID:32019   |   URL:http://www.securityfocus.com/bid/32019   |   SECUNIA:31234   |   URL:http://secunia.com/advisories/31234   |   XF:cameralife-multiple-scripts-xss(46285)   |   URL:http://xforce.iss.net/xforce/xfdb/46285",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20090226)",
+	"id": "CVE-2008-6295",
+	"description": "Multiple cross-site scripting (XSS) vulnerabilities in Camera Life 2.6.2b8 allow remote attackers to inject arbitrary web script or HTML via the q parameter to (1) search.php and (2) rss.php; the query string after the image name in (3) photos/photo; the path parameter to (4) folder.php; page parameter and REQUEST_URI to (5) login.php; ver parameter to (6) media.php; theme parameter to (7) modules/iconset/iconset-debug.php; and the REQUEST_URI to (8) index.php.",
+	"status": "Candidate"
+}, {
+	"reference": "BID:30973   |   URL:http://www.securityfocus.com/bid/30973",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20090817)",
+	"id": "CVE-2008-6993",
+	"description": "Siemens Gigaset WLAN Camera 1.27 has an insecure default password, which allows remote attackers to conduct unauthorized activities. NOTE: the provenance of this information is unknown; the details are obtained solely from third party information.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:http://www.gnucitizen.org/blog/hacking-linksys-ip-cameras-pt-1/   |   BID:34596   |   URL:http://www.securityfocus.com/bid/34596   |   SECUNIA:34767   |   URL:http://secunia.com/advisories/34767   |   VUPEN:ADV-2009-1173   |   URL:http://www.vupen.com/english/advisories/2009/1173",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20090506)",
+	"id": "CVE-2009-1555",
+	"description": "The Cisco Linksys WVC54GCA wireless video camera with firmware 1.00R22 and 1.00R24 sends configuration data in response to a Setup Wizard remote-management command, which allows remote attackers to obtain sensitive information such as passwords by reading the SetupWizard.exe process memory, a related issue to CVE-2008-4390.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:http://www.gnucitizen.org/blog/hacking-linksys-ip-cameras-pt-2/   |   BID:34629   |   URL:http://www.securityfocus.com/bid/34629   |   SECUNIA:34767   |   URL:http://secunia.com/advisories/34767   |   VUPEN:ADV-2009-1173   |   URL:http://www.vupen.com/english/advisories/2009/1173",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20090506)",
+	"id": "CVE-2009-1556",
+	"description": "img/main.cgi on the Cisco Linksys WVC54GCA wireless video camera with firmware 1.00R22 and 1.00R24 allows remote authenticated users to read arbitrary files in img/ via a filename in the next_file parameter, as demonstrated by reading .htpasswd to obtain the admin password, a different vulnerability than CVE-2004-2507.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:http://www.gnucitizen.org/blog/hacking-linksys-ip-cameras-pt-4/   |   BID:34714   |   URL:http://www.securityfocus.com/bid/34714   |   SECUNIA:34767   |   URL:http://secunia.com/advisories/34767   |   VUPEN:ADV-2009-1173   |   URL:http://www.vupen.com/english/advisories/2009/1173   |   XF:wvc54gca-nextfile-xss(50224)   |   URL:http://xforce.iss.net/xforce/xfdb/50224",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20090506)",
+	"id": "CVE-2009-1557",
+	"description": "Multiple cross-site scripting (XSS) vulnerabilities on the Cisco Linksys WVC54GCA wireless video camera with firmware 1.00R22 and 1.00R24 allow remote attackers to inject arbitrary web script or HTML via the next_file parameter to (1) main.cgi, (2) img/main.cgi, or (3) adm/file.cgi; or (4) the this_file parameter to adm/file.cgi.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:http://www.gnucitizen.org/blog/hacking-linksys-ip-cameras-pt-3/   |   BID:34713   |   URL:http://www.securityfocus.com/bid/34713   |   VUPEN:ADV-2009-1173   |   URL:http://www.vupen.com/english/advisories/2009/1173   |   XF:wvc54gca-admfile-dir-traversal(50231)   |   URL:http://xforce.iss.net/xforce/xfdb/50231",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20090506)",
+	"id": "CVE-2009-1558",
+	"description": "Directory traversal vulnerability in adm/file.cgi on the Cisco Linksys WVC54GCA wireless video camera with firmware 1.00R22 and 1.00R24 allows remote attackers to read arbitrary files via a %2e. (encoded dot dot) or an absolute pathname in the next_file parameter.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:http://www.gnucitizen.org/blog/hacking-linksys-ip-cameras-pt-3/   |   BID:34713   |   URL:http://www.securityfocus.com/bid/34713   |   VUPEN:ADV-2009-1173   |   URL:http://www.vupen.com/english/advisories/2009/1173   |   XF:wvc54gca-admfile-dir-traversal(50231)   |   URL:http://xforce.iss.net/xforce/xfdb/50231",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20090506)",
+	"id": "CVE-2009-1559",
+	"description": "Absolute path traversal vulnerability in adm/file.cgi on the Cisco Linksys WVC54GCA wireless video camera with firmware 1.00R24 and possibly 1.00R22 allows remote attackers to read arbitrary files via an absolute pathname in the this_file parameter.  NOTE: traversal via a .. (dot dot) is probably also possible.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:http://www.gnucitizen.org/blog/hacking-linksys-ip-cameras-pt-4/   |   VUPEN:ADV-2009-1173   |   URL:http://www.vupen.com/english/advisories/2009/1173   |   XF:wvc54gca-pass-wsecurity-info-disclosure(50410)   |   URL:http://xforce.iss.net/xforce/xfdb/50410",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20090506)",
+	"id": "CVE-2009-1560",
+	"description": "The Cisco Linksys WVC54GCA wireless video camera with firmware 1.00R22 and 1.00R24 stores passwords and wireless-network keys in cleartext in (1) pass_wd.htm and (2) Wsecurity.htm, which allows remote attackers to obtain sensitive information by reading the HTML source code.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://support.apple.com/kb/HT3757   |   APPLE:APPLE-SA-2009-08-05-1   |   URL:http://lists.apple.com/archives/security-announce/2009/Aug/msg00001.html   |   CERT:TA09-218A   |   URL:http://www.us-cert.gov/cas/techalerts/TA09-218A.html   |   BID:35954   |   URL:http://www.securityfocus.com/bid/35954   |   OSVDB:56843   |   URL:http://osvdb.org/56843   |   SECTRACK:1022674   |   URL:http://www.securitytracker.com/id?1022674   |   SECUNIA:36096   |   URL:http://secunia.com/advisories/36096   |   VUPEN:ADV-2009-2172   |   URL:http://www.vupen.com/english/advisories/2009/2172   |   XF:macosx-imageraw-bo(52423)   |   URL:http://xforce.iss.net/xforce/xfdb/52423",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20090520)",
+	"id": "CVE-2009-1728",
+	"description": "Stack-based buffer overflow in Image RAW in Apple Mac OS X 10.5 before 10.5.8, and 10.4 before Digital Camera RAW Compatibility Update 2.6, allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via a crafted Canon RAW image.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://www.cisco.com/en/US/products/products_applied_mitigation_bulletin09186a0080ad1002.html   |   CISCO:20090624 Vulnerabilities in Cisco Video Surveillance Products   |   URL:http://www.cisco.com/en/US/products/products_security_advisory09186a0080ad0f8f.shtml   |   BID:35478   |   URL:http://www.securityfocus.com/bid/35478   |   SECTRACK:1022445   |   URL:http://www.securitytracker.com/id?1022445",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20090612)",
+	"id": "CVE-2009-2046",
+	"description": "The embedded web server on the Cisco Video Surveillance 2500 Series IP Camera with firmware before 2.1 allows remote attackers to read arbitrary files via a (1) http or (2) https request, related to the (a) SD Camera Web Server and the (b) Wireless Camera HTTP Server, aka Bug IDs CSCsu05515 and CSCsr96497.",
+	"status": "Candidate"
+}, {
+	"reference": "MILW0RM:9067   |   URL:http://www.milw0rm.com/exploits/9067   |   SECUNIA:35671   |   URL:http://secunia.com/advisories/35671",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20090702)",
+	"id": "CVE-2009-2305",
+	"description": "The ARD-9808 DVR card security camera allows remote attackers to cause a denial of service via a long URI composed of //.\\ (slash slash dot backslash) sequences.",
+	"status": "Candidate"
+}, {
+	"reference": "MILW0RM:9066   |   URL:http://www.milw0rm.com/exploits/9066   |   SECUNIA:35671   |   URL:http://secunia.com/advisories/35671",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20090702)",
+	"id": "CVE-2009-2306",
+	"description": "The ARD-9808 DVR card security camera stores sensitive information under the web root with insufficient access control, which allows remote attackers to download a file containing usernames and passwords via a direct request for dvr.ini.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20090716 [oCERT-2009-011] Android improper camera and audio permission verification   |   URL:http://www.securityfocus.com/archive/1/archive/1/505012/100/0/threaded   |   MLIST:[oss-security] 20090716 [oCERT-2009-011] Android improper camera and audio permission verification   |   URL:http://www.openwall.com/lists/oss-security/2009/07/16/4   |   MISC:http://www.ocert.org/advisories/ocert-2009-011.html   |   CONFIRM:http://android.git.kernel.org/?p=platform/frameworks/base.git;a=commit;h=4d8adefd35efdea849611b8b02d61f9517e47760   |   CONFIRM:http://android.git.kernel.org/?p=platform/frameworks/base.git;a=commit;h=7b7225c8fdbead25235c74811b30ff4ee690dc58   |   CONFIRM:http://android.git.kernel.org/?p=platform/packages/apps/Camera.git;a=commit;h=e655d54160e5a56d4909f2459eeae9012e9f187f   |   BID:35717   |   URL:http://www.securityfocus.com/bid/35717   |   XF:android-permission-security-bypass(51798)   |   URL:http://xforce.iss.net/xforce/xfdb/51798",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20090707)",
+	"id": "CVE-2009-2348",
+	"description": "Android 1.5 CRBxx allows local users to bypass the (1) Manifest.permission.CAMERA (aka android.permission.CAMERA) and (2) Manifest.permission.AUDIO_RECORD (aka android.permission.RECORD_AUDIO) configuration settings by installing and executing an application that does not make a permission request before using the camera or microphone.",
+	"status": "Candidate"
+}, {
+	"reference": "CISCO:20100421 Cisco Small Business Video Surveillance Cameras and Cisco 4-Port Gigabit Security Routers Authentication Bypass Vulnerability   |   URL:http://www.cisco.com/en/US/products/products_security_advisory09186a0080b27511.shtml   |   BID:39612   |   URL:http://www.securityfocus.com/bid/39612   |   OSVDB:63978   |   URL:http://osvdb.org/63978   |   SECTRACK:1023906   |   URL:http://www.securitytracker.com/id?1023906   |   SECUNIA:39510   |   URL:http://secunia.com/advisories/39510   |   VUPEN:ADV-2010-0965   |   URL:http://www.vupen.com/english/advisories/2010/0965   |   XF:cisco-small-business-unauth-access(58034)   |   URL:http://xforce.iss.net/xforce/xfdb/58034",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20100210)",
+	"id": "CVE-2010-0593",
+	"description": "The Cisco RVS4000 4-port Gigabit Security Router before 1.3.2.0, PVC2300 Business Internet Video Camera before 1.1.2.6, WVC200 Wireless-G PTZ Internet Video Camera before 1.1.1.15, WVC210 Wireless-G PTZ Internet Video Camera before 1.1.1.15, and WVC2300 Wireless-G Business Internet Video Camera before 1.1.2.6 do not properly restrict read access to passwords, which allows context-dependent attackers to obtain sensitive information, related to (1) access by remote authenticated users to a PVC2300 or WVC2300 via a crafted URL, (2) leveraging setup privileges on a WVC200 or WVC210, and (3) leveraging administrative privileges on an RVS4000, aka Bug ID CSCte64726.",
+	"status": "Candidate"
+}, {
+	"reference": "HP:HPSBMI02582   |   URL:http://marc.info/?l=bugtraq&m=128820226417721&w=2   |   HP:SSRT100269   |   URL:http://marc.info/?l=bugtraq&m=128820226417721&w=2   |   SECTRACK:1024658   |   URL:http://www.securitytracker.com/id?1024658   |   SECUNIA:42023   |   URL:http://secunia.com/advisories/42023",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20101021)",
+	"id": "CVE-2010-4027",
+	"description": "Unspecified vulnerability in the camera application in HP Palm webOS 1.4.1 allows local users to overwrite arbitrary files via unknown vectors.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20101112 TWSL2010-006: Multiple Vulnerabilities in Camtron CMNC-200 IP Camera   |   URL:http://www.securityfocus.com/archive/1/archive/1/514753/100/0/threaded   |   EXPLOIT-DB:15504   |   URL:http://www.exploit-db.com/exploits/15504   |   MISC:https://www.trustwave.com/spiderlabs/advisories/TWSL2010-006.txt",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20101111)",
+	"id": "CVE-2010-4230",
+	"description": "Stack-based buffer overflow in a certain ActiveX control for the Camtron CMNC-200 Full HD IP Camera and TecVoz CMNC-200 Megapixel IP Camera with firmware 1.102A-008 allows remote attackers to execute arbitrary code via a long string in the first argument to the connect method.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20101112 TWSL2010-006: Multiple Vulnerabilities in Camtron CMNC-200 IP Camera   |   URL:http://www.securityfocus.com/archive/1/archive/1/514753/100/0/threaded   |   EXPLOIT-DB:15505   |   URL:http://www.exploit-db.com/exploits/15505/   |   MISC:https://www.trustwave.com/spiderlabs/advisories/TWSL2010-006.txt",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20101111)",
+	"id": "CVE-2010-4231",
+	"description": "Directory traversal vulnerability in the web-based administration interface on the Camtron CMNC-200 Full HD IP Camera and TecVoz CMNC-200 Megapixel IP Camera with firmware 1.102A-008 allows remote attackers to read arbitrary files via a .. (dot dot) in the URI.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20101112 TWSL2010-006: Multiple Vulnerabilities in Camtron CMNC-200 IP Camera   |   URL:http://www.securityfocus.com/archive/1/archive/1/514753/100/0/threaded   |   EXPLOIT-DB:15506   |   URL:http://www.exploit-db.com/exploits/15506   |   MISC:https://www.trustwave.com/spiderlabs/advisories/TWSL2010-006.txt",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20101111)",
+	"id": "CVE-2010-4232",
+	"description": "The web-based administration interface on the Camtron CMNC-200 Full HD IP Camera and TecVoz CMNC-200 Megapixel IP Camera with firmware 1.102A-008 allows remote attackers to bypass authentication via a // (slash slash) at the beginning of a URI, as demonstrated by the //system.html URI.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20101112 TWSL2010-006: Multiple Vulnerabilities in Camtron CMNC-200 IP Camera   |   URL:http://www.securityfocus.com/archive/1/archive/1/514753/100/0/threaded   |   EXPLOIT-DB:15507   |   URL:http://www.exploit-db.com/exploits/15507   |   MISC:https://www.trustwave.com/spiderlabs/advisories/TWSL2010-006.txt",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20101111)",
+	"id": "CVE-2010-4233",
+	"description": "The Linux installation on the Camtron CMNC-200 Full HD IP Camera and TecVoz CMNC-200 Megapixel IP Camera with firmware 1.102A-008 has a default password of m for the root account, and a default password of merlin for the mg3500 account, which makes it easier for remote attackers to obtain access via the TELNET interface.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20101112 TWSL2010-006: Multiple Vulnerabilities in Camtron CMNC-200 IP Camera   |   URL:http://www.securityfocus.com/archive/1/archive/1/514753/100/0/threaded   |   EXPLOIT-DB:15508   |   URL:http://www.exploit-db.com/exploits/15508   |   MISC:https://www.trustwave.com/spiderlabs/advisories/TWSL2010-006.txt",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20101111)",
+	"id": "CVE-2010-4234",
+	"description": "The web server on the Camtron CMNC-200 Full HD IP Camera and TecVoz CMNC-200 Megapixel IP Camera with firmware 1.102A-008 allows remote attackers to cause a denial of service (device reboot) via a large number of requests in a short time interval.",
+	"status": "Candidate"
+}, {
+	"reference": "MLIST:[oss-security] 20110910 D-Link DCS-2121 Semicolon Vulnerability   |   URL:http://www.openwall.com/lists/oss-security/2011/09/10/1   |   MLIST:[oss-security] 20110914 Re: D-Link DCS-2121 Semicolon Vulnerability   |   URL:http://www.openwall.com/lists/oss-security/2011/09/14/4   |   MISC:http://newsoft-tech.blogspot.com/2010/09/d-link-dcs-2121-and-state-of-embedded.html",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20111016)",
+	"id": "CVE-2010-4964",
+	"description": "recorder_test.cgi on the D-Link DCS-2121 camera with firmware 1.04 allows remote attackers to execute arbitrary commands via shell metacharacters in the Password field, related to a \"semicolon injection\" vulnerability.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:http://newsoft-tech.blogspot.com/2010/09/d-link-dcs-2121-and-state-of-embedded.html",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20111016)",
+	"id": "CVE-2010-4965",
+	"description": "/etc/rc.d/rc.local on the D-Link DCS-2121 camera with firmware 1.04 configures a hardcoded password of admin for the root account, which makes it easier for remote attackers to obtain shell access by leveraging a running telnetd server.",
+	"status": "Candidate"
+}, {
+	"reference": "CISCO:20111026 Denial of Service Vulnerability in Cisco Video Surveillance IP Cameras   |   URL:http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20111026-camera",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20110829)",
+	"id": "CVE-2011-3318",
+	"description": "Cisco Video Surveillance 2421 and 2500 series cameras with software 1.1.x and 2.x before 2.4.0 and Video Surveillance 2600 series cameras with software before 4.2.0-13 allow remote attackers to cause a denial of service (device reload) by sending crafted RTSP packets over TCP, aka Bug IDs CSCtj96312, CSCtj39462, and CSCtl80175.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:http://metzgersecurity.blogspot.com/2011/11/xss-vulnerability-axis-m10-series.html   |   BID:50968   |   URL:http://www.securityfocus.com/bid/50968   |   OSVDB:77395   |   URL:http://osvdb.org/77395   |   SECUNIA:47037   |   URL:http://secunia.com/advisories/47037   |   XF:axism10-showreport-xss(71687)   |   URL:http://xforce.iss.net/xforce/xfdb/71687",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130212)",
+	"id": "CVE-2011-5261",
+	"description": "Cross-site scripting (XSS) vulnerability in serverreport.cgi in Axis M10 Series Network Cameras M1054 firmware 5.21 and earlier allows remote attackers to inject arbitrary web script or HTML via the pageTitle parameter to admin/showReport.shtml.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20120717 Secunia Research: Cisco Linksys PlayerPT ActiveX Control \"SetSource()\" Buffer Overflow   |   URL:http://archives.neohapsis.com/archives/bugtraq/2012-07/0113.html   |   MISC:http://secunia.com/secunia_research/2012-25/   |   BID:54588   |   URL:http://www.securityfocus.com/bid/54588   |   SECTRACK:1027259   |   URL:http://www.securitytracker.com/id?1027259   |   XF:cisco-linksys-activex-bo(77085)   |   URL:http://xforce.iss.net/xforce/xfdb/77085",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20111230)",
+	"id": "CVE-2012-0284",
+	"description": "Stack-based buffer overflow in the SetSource method in the Cisco Linksys PlayerPT ActiveX control 1.0.0.15 in PlayerPT.ocx on the Cisco WVC200 Wireless-G PTZ Internet video camera allows remote attackers to execute arbitrary code via a long URL in the first argument (aka the sURL argument).",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20120510 Adobe Photoshop CS5.1 U3D.8BI Library Collada Asset Elements Stack Based Buffer Overflow Vulnerability   |   URL:http://seclists.org/bugtraq/2012/May/58   |   MISC:http://retrogod.altervista.org/9sg_photoshock_adv.htm   |   MISC:http://retrogod.altervista.org/9sg_photoshock_u3d.htm   |   CONFIRM:http://www.adobe.com/support/security/bulletins/apsb12-11.html   |   BID:53464   |   URL:http://www.securityfocus.com/bid/53464   |   OSVDB:81832   |   URL:http://osvdb.org/show/osvdb/81832   |   SECUNIA:49160   |   URL:http://secunia.com/advisories/49160",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20120402)",
+	"id": "CVE-2012-2052",
+	"description": "Stack-based buffer overflow in the U3D.8BI library plugin in Adobe Photoshop CS5 12.x before 12.0.5 and CS5.1 12.1.x before 12.1.1 allows remote attackers to execute arbitrary code via a long Collada asset element in a DAE file, as demonstrated by the cameraYFov value in the contributor comments element.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:http://foscam.us/forum/h264-ip-camera-web-interface-authentication-bypass-test-tool-t3252.html   |   MISC:http://www.foscam.com/help.aspx?TypeId=11   |   CERT-VN:VU#265532   |   URL:http://www.kb.cert.org/vuls/id/265532   |   BID:55873   |   URL:http://www.securityfocus.com/bid/55873   |   SECUNIA:50950   |   URL:http://secunia.com/advisories/50950   |   SECUNIA:50966   |   URL:http://secunia.com/advisories/50966",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20120530)",
+	"id": "CVE-2012-3002",
+	"description": "The web interface on (1) Foscam and (2) Wansview IP cameras allows remote attackers to bypass authentication, and perform administrative functions or read the admin password, via a direct request to an unspecified URL.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://www.opera.com/docs/changelogs/windows/1200b/   |   XF:opera-reload-dos(76357)   |   URL:http://xforce.iss.net/xforce/xfdb/76357",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20120614)",
+	"id": "CVE-2012-3562",
+	"description": "Opera before 12.00 Beta allows user-assisted remote attackers to cause a denial of service (application crash) via a crafted web page that is not properly handled during a reload, as demonstrated by a \"multiple origin camera test\" page.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://support.apple.com/kb/HT5503   |   APPLE:APPLE-SA-2012-09-19-1   |   URL:http://lists.apple.com/archives/security-announce/2012/Sep/msg00003.html",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20120619)",
+	"id": "CVE-2012-3739",
+	"description": "The Passcode Lock implementation in Apple iOS before 6 allows physically proximate attackers to bypass an intended passcode requirement via vectors involving use of the camera.",
+	"status": "Candidate"
+}, {
+	"reference": "CISCO:20130731 Cisco VC220/240 Network Cameras Denial of Service Vulnerabilities   |   URL:http://tools.cisco.com/security/center/content/CiscoSecurityNotice/CVE-2012-3913",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20120710)",
+	"id": "CVE-2012-3913",
+	"description": "The Cisco VC220 and VC240 cameras allow remote attackers to cause a denial of service (WebUI outage) via crafted packets, aka Bug IDs CSCtf73188, CSCtf88059, CSCtf87951, CSCtf87908, and CSCtf88019.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20121213 Password Disclosure in D-Link IP Cameras (CVE-2012-4046)   |   URL:http://seclists.org/bugtraq/2012/Dec/98   |   MISC:http://www.fishnetsecurity.com/6labs/blog/password-disclosure-d-link-surveillance-cameras-cve-2012-4046",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20120723)",
+	"id": "CVE-2012-4046",
+	"description": "The D-Link DCS-932L camera with firmware 1.02 allows remote attackers to discover the password via a UDP broadcast packet, as demonstrated by running the D-Link Setup Wizard and reading the _paramR[\"P\"] value.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20120328 TRENDnet SecurView TV-IP121WN Wireless Internet Camera UltraMJCam ActiveX Control OpenFileDlg WideCharToMultiByte Remote Stack Buffer Overflow   |   URL:http://archives.neohapsis.com/archives/bugtraq/2012-03/0152.html   |   EXPLOIT-DB:18675   |   URL:http://www.exploit-db.com/exploits/18675   |   MISC:http://retrogod.altervista.org/9sg_trendnet_adv.htm   |   BID:52760   |   URL:http://www.securityfocus.com/bid/52760   |   OSVDB:80661   |   URL:http://osvdb.org/80661   |   SECUNIA:48601   |   URL:http://secunia.com/advisories/48601",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20120906)",
+	"id": "CVE-2012-4876",
+	"description": "Stack-based buffer overflow in the UltraMJCam ActiveX Control in TRENDnet SecurView TV-IP121WN Wireless Internet Camera allows remote attackers to execute arbitrary code via a long string to the OpenFileDlg method.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20120328 D-Link SecuriCam DCS-5605 Network Surveillance ActiveX Control DcsCliCtrl.dll lstrcpyW Remote Buffer Overflow Vulnerability   |   URL:http://archives.neohapsis.com/archives/bugtraq/2012-03/0154.html   |   EXPLOIT-DB:18673   |   URL:http://www.exploit-db.com/exploits/18673   |   BID:52769   |   URL:http://www.securityfocus.com/bid/52769   |   OSVDB:80663   |   URL:http://osvdb.org/80663   |   SECUNIA:48602   |   URL:http://secunia.com/advisories/48602   |   XF:csc-dcsclictrl-bo(74447)   |   URL:http://xforce.iss.net/xforce/xfdb/74447",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20121006)",
+	"id": "CVE-2012-5306",
+	"description": "Stack-based buffer overflow in the SelectDirectory method in DcsCliCtrl.dll in Camera Stream Client ActiveX Control, as used in D-Link DCS-5605 PTZ IP Network Camera, allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via a long string argument.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://www.adobe.com/support/security/bulletins/apsb12-28.html",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20121029)",
+	"id": "CVE-2012-5679",
+	"description": "Buffer underflow in Adobe Photoshop Camera Raw before 7.3 allows attackers to execute arbitrary code via unspecified vectors.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://www.adobe.com/support/security/bulletins/apsb12-28.html",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20121029)",
+	"id": "CVE-2012-5680",
+	"description": "Buffer overflow in Adobe Photoshop Camera Raw before 7.3 allows attackers to execute arbitrary code via unspecified vectors.",
+	"status": "Candidate"
+}, {
+	"reference": "CERT-VN:VU#375180   |   URL:http://www.kb.cert.org/vuls/id/375180",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20121206)",
+	"id": "CVE-2013-0139",
+	"description": "The Arecont Vision AV1355DN MegaDome camera allows remote attackers to cause a denial of service (video-capture outage) via a packet to UDP port 69.",
+	"status": "Candidate"
+}, {
+	"reference": "EXPLOIT-DB:25813   |   URL:http://www.exploit-db.com/exploits/25813   |   FULLDISC:20130528 CORE-2013-0322 - MayGion IP Cameras multiple vulnerabilities   |   URL:http://seclists.org/fulldisclosure/2013/May/194   |   MISC:http://www.coresecurity.com/advisories/maygion-IP-cameras-multiple-vulnerabilities   |   BID:60192   |   URL:http://www.securityfocus.com/bid/60192   |   XF:maygion-ipcamera-cve20131604-dir-traversal(84589)   |   URL:http://xforce.iss.net/xforce/xfdb/84589",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130204)",
+	"id": "CVE-2013-1604",
+	"description": "Directory traversal vulnerability in MayGion IP Cameras with firmware before 2013.04.22 (05.53) allows remote attackers to read arbitrary files via a .. (dot dot) in the default URI.",
+	"status": "Candidate"
+}, {
+	"reference": "EXPLOIT-DB:25813   |   URL:http://www.exploit-db.com/exploits/25813   |   FULLDISC:20130528 CORE-2013-0322 - MayGion IP Cameras multiple vulnerabilities   |   URL:http://seclists.org/fulldisclosure/2013/May/194   |   MISC:http://packetstormsecurity.com/files/121787/MayGion-IP-Camera-Path-Traversal-Buffer-Overflow.html   |   MISC:http://www.coresecurity.com/advisories/maygion-IP-cameras-multiple-vulnerabilities   |   BID:60196   |   URL:http://www.securityfocus.com/bid/60196   |   OSVDB:93708   |   URL:http://osvdb.org/93708   |   XF:maygion-ipcamera-cve20131605-bo(84590)   |   URL:http://xforce.iss.net/xforce/xfdb/84590",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130204)",
+	"id": "CVE-2013-1605",
+	"description": "Buffer overflow in MayGion IP Cameras with firmware before 2013.04.22 (05.53) allows remote attackers to execute arbitrary code via a long filename in a GET request.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://www.mozilla.org/security/announce/2013/mfsa2013-60.html   |   CONFIRM:https://bugzilla.mozilla.org/show_bug.cgi?id=876044   |   SUSE:openSUSE-SU-2013:1142   |   URL:http://lists.opensuse.org/opensuse-security-announce/2013-07/msg00005.html   |   UBUNTU:USN-1890-1   |   URL:http://www.ubuntu.com/usn/USN-1890-1   |   OVAL:oval:org.mitre.oval:def:16791   |   URL:http://oval.mitre.org/repository/data/getDef?id=oval:org.mitre.oval:def:16791",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130213)",
+	"id": "CVE-2013-1698",
+	"description": "The getUserMedia permission implementation in Mozilla Firefox before 22.0 references the URL of a top-level document instead of the URL of a specific page, which makes it easier for remote attackers to trick users into permitting camera or microphone access via a crafted web site that uses IFRAME elements.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:http://www.coresecurity.com/advisories/multiple-vulnerabilities-tp-link-tl-sc3171-ip-cameras",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130315)",
+	"id": "CVE-2013-2578",
+	"description": "cgi-bin/admin/servetest in TP-Link IP Cameras TL-SC3130, TL-SC3130G, TL-SC3171, TL-SC3171G, and possibly other models before beta firmware LM.1.6.18P12_sign6 allows remote attackers to execute arbitrary commands via shell metacharacters in (1) the ServerName parameter and (2) other unspecified parameters.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:http://www.coresecurity.com/advisories/multiple-vulnerabilities-tp-link-tl-sc3171-ip-cameras",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130315)",
+	"id": "CVE-2013-2579",
+	"description": "TP-Link IP Cameras TL-SC3130, TL-SC3130G, TL-SC3171, TL-SC3171G, and possibly other models before beta firmware LM.1.6.18P12_sign6 have an empty password for the hardcoded \"qmik\" account, which allows remote attackers to obtain administrative access via a TELNET session.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:http://www.coresecurity.com/advisories/multiple-vulnerabilities-tp-link-tl-sc3171-ip-cameras",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130315)",
+	"id": "CVE-2013-2580",
+	"description": "Unrestricted file upload vulnerability in cgi-bin/uploadfile in TP-Link IP Cameras TL-SC3130, TL-SC3130G, TL-SC3171, TL-SC3171G, and possibly other models before beta firmware LM.1.6.18P12_sign6, allows remote attackers to upload arbitrary files, then accessing it via a direct request to the file in the mnt/mtd directory.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:http://www.coresecurity.com/advisories/multiple-vulnerabilities-tp-link-tl-sc3171-ip-cameras   |   SECUNIA:54155   |   URL:http://secunia.com/advisories/54155",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130315)",
+	"id": "CVE-2013-2581",
+	"description": "cgi-bin/firmwareupgrade in TP-Link IP Cameras TL-SC3130, TL-SC3130G, TL-SC3171, TL-SC3171G, and possibly other models before beta firmware LM.1.6.18P12_sign6 allows remote attackers to modify the firmware revision via a \"preset\" action.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:https://www.codeaurora.org/projects/security-advisories/uncontrolled-memory-mapping-camera-driver-cve-2013-2595",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130315)",
+	"id": "CVE-2013-2595",
+	"description": "The device-initialization functionality in the MSM camera driver for the Linux kernel 2.6.x and 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, enables MSM_CAM_IOCTL_SET_MEM_MAP_INFO ioctl calls for an unrestricted mmap interface, which allows attackers to gain privileges via a crafted application.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:http://habrahabr.ru/post/182706/   |   CONFIRM:http://googlechromereleases.blogspot.com/2013/06/stable-channel-update-for-chrome-os.html   |   CONFIRM:http://googlechromereleases.blogspot.com/2013/06/stable-channel-update_18.html   |   CONFIRM:https://code.google.com/p/chromium/issues/detail?id=249335   |   CONFIRM:https://src.chromium.org/viewvc/chrome?revision=206188&view=revision   |   OVAL:oval:org.mitre.oval:def:16693   |   URL:http://oval.mitre.org/repository/data/getDef?id=oval:org.mitre.oval:def:16693",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130411)",
+	"id": "CVE-2013-2866",
+	"description": "The Flash plug-in in Google Chrome before 27.0.1453.116, as used on Google Chrome OS before 27.0.1453.116 and separately, does not properly determine whether a user wishes to permit camera or microphone access by a Flash application, which allows remote attackers to obtain sensitive information from a machine's physical environment via a clickjacking attack, as demonstrated by an attack using a crafted Cascading Style Sheets (CSS) opacity property.",
+	"status": "Candidate"
+}, {
+	"reference": "FULLDISC:20130612 Security Analysis of IP video surveillance cameras   |   URL:http://seclists.org/fulldisclosure/2013/Jun/84",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130514)",
+	"id": "CVE-2013-3539",
+	"description": "Cross-site request forgery (CSRF) vulnerability in the command/user.cgi in Sony SNC CH140, SNC CH180, SNC CH240, SNC CH280, SNC DH140, SNC DH140T, SNC DH180, SNC DH240, SNC DH240T, SNC DH280, and possibly other camera models allows remote attackers to hijack the authentication of administrators for requests that add users.",
+	"status": "Candidate"
+}, {
+	"reference": "FULLDISC:20130612 Security Analysis of IP video surveillance cameras   |   URL:http://seclists.org/fulldisclosure/2013/Jun/84",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130514)",
+	"id": "CVE-2013-3540",
+	"description": "Cross-site request forgery (CSRF) vulnerability in cgi-bin/admin/usrgrp.cgi in AirLive POE2600HD, POE250HD, POE200HD, OD-325HD, OD-2025HD, OD-2060HD, POE100HD, and possibly other camera models allows remote attackers to hijack the authentication of administrators for requests that add users.",
+	"status": "Candidate"
+}, {
+	"reference": "FULLDISC:20130612 Security Analysis of IP video surveillance cameras   |   URL:http://seclists.org/fulldisclosure/2013/Jun/84",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130514)",
+	"id": "CVE-2013-3541",
+	"description": "Directory traversal vulnerability in cgi-bin/admin/fileread in AirLive WL2600CAM and possibly other camera models allows remote attackers to read arbitrary files via a .. (dot dot) in the READ.filePath parameter.",
+	"status": "Candidate"
+}, {
+	"reference": "FULLDISC:20130612 Security Analysis of IP video surveillance cameras   |   URL:http://seclists.org/fulldisclosure/2013/Jun/84",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130514)",
+	"id": "CVE-2013-3543",
+	"description": "The AXIS Media Control (AMC) ActiveX control (AxisMediaControlEmb.dll) 6.2.10.11 for AXIS network cameras allows remote attackers to create or overwrite arbitrary files via a file path to the (1) StartRecord, (2) SaveCurrentImage, or (3) StartRecordMedia methods.",
+	"status": "Candidate"
+}, {
+	"reference": "FULLDISC:20130612 Security Analysis of IP video surveillance cameras   |   URL:http://seclists.org/fulldisclosure/2013/Jun/84",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130529)",
+	"id": "CVE-2013-3686",
+	"description": "cgi-bin/operator/param in AirLive WL2600CAM and possibly other camera models allows remote attackers to obtain the administrator password via a list action.",
+	"status": "Candidate"
+}, {
+	"reference": "FULLDISC:20130612 Security Analysis of IP video surveillance cameras   |   URL:http://seclists.org/fulldisclosure/2013/Jun/84",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130529)",
+	"id": "CVE-2013-3687",
+	"description": "AirLive POE2600HD, POE250HD, POE200HD, OD-325HD, OD-2025HD, OD-2060HD, POE100HD, and possibly other camera models use cleartext to store sensitive information, which allows attackers to obtain passwords, user names, and other sensitive information by reading an unspecified backup file.",
+	"status": "Candidate"
+}, {
+	"reference": "FULLDISC:20130612 Security Analysis of IP video surveillance cameras   |   URL:http://seclists.org/fulldisclosure/2013/Jun/84   |   MISC:http://www.coresecurity.com/advisories/multiple-vulnerabilities-tp-link-tl-sc3171-ip-cameras",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130529)",
+	"id": "CVE-2013-3688",
+	"description": "The TP-Link IP Cameras TL-SC3171, TL-SC3130, TL-SC3130G, TL-SC3171G, and possibly other models before beta firmware LM.1.6.18P12_sign6, does not properly restrict access to certain administrative functions, which allows remote attackers to (1) cause a denial of service (device reboot) via a request to cgi-bin/reboot or (2) cause a denial of service (reboot and reset to factory defaults) via a request to cgi-bin/hardfactorydefault.",
+	"status": "Candidate"
+}, {
+	"reference": "FULLDISC:20130612 Security Analysis of IP video surveillance cameras   |   URL:http://seclists.org/fulldisclosure/2013/Jun/84",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130529)",
+	"id": "CVE-2013-3689",
+	"description": "Brickcom FB-100Ap, WCB-100Ap, MD-100Ap, WFB-100Ap, OB-100Ae, OSD-040E, and possibly other camera models with firmware 3.0.6.16C1 and earlier, do not properly restrict access to configfile.dump, which allow remote attackers to obtain sensitive information (user names, passwords, and configurations) via a get action.",
+	"status": "Candidate"
+}, {
+	"reference": "FULLDISC:20130612 Security Analysis of IP video surveillance cameras   |   URL:http://seclists.org/fulldisclosure/2013/Jun/84",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130529)",
+	"id": "CVE-2013-3690",
+	"description": "Cross-site request forgery (CSRF) vulnerability in cgi-bin/users.cgi in Brickcom FB-100Ap, WCB-100Ap, MD-100Ap, WFB-100Ap, OB-100Ae, OSD-040E, and possibly other camera models with firmware 3.1.0.8 and earlier, allows remote attackers to hijack the authentication of administrators for requests that add users.",
+	"status": "Candidate"
+}, {
+	"reference": "FULLDISC:20130612 Security Analysis of IP video surveillance cameras   |   URL:http://seclists.org/fulldisclosure/2013/Jun/84   |   CONFIRM:http://www.grandstream.com/firmware/BETATEST/GXV35xx_GXV36xx_H/Release_Note_GXV35xx_GXV36xx_H1.0.4.44.pdf",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130606)",
+	"id": "CVE-2013-3962",
+	"description": "Cross-site scripting (XSS) vulnerability in Grandstream GXV3501, GXV3504, GXV3601, GXV3601HD/LL, GXV3611HD/LL, GXV3615W/P, GXV3651FHD, GXV3662HD, GXV3615WP_HD, GXV3500, and possibly other camera models before firmware 1.0.4.44, allows remote attackers to inject arbitrary web script or HTML via the PATH_INFO.",
+	"status": "Candidate"
+}, {
+	"reference": "FULLDISC:20130612 Security Analysis of IP video surveillance cameras   |   URL:http://seclists.org/fulldisclosure/2013/Jun/84",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130606)",
+	"id": "CVE-2013-3963",
+	"description": "Cross-site request forgery (CSRF) vulnerability in goform/usermanage in Grandstream GXV3501, GXV3504, GXV3601, GXV3601HD/LL, GXV3611HD/LL, GXV3615W/P, GXV3651FHD, GXV3662HD, GXV3615WP_HD, GXV3500, and possibly other camera models allows remote attackers to hijack the authentication of unspecified victims for requests that add users.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:https://www.codeaurora.org/projects/security-advisories/integer-overflow-and-signedness-issue-camera-jpeg-engines-cve-2013-4736",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130701)",
+	"id": "CVE-2013-4736",
+	"description": "Multiple integer overflows in the JPEG engine drivers in the MSM camera driver for the Linux kernel 2.6.x and 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, allow attackers to cause a denial of service (system crash) via a large number of commands in an ioctl call, related to (1) camera_v1/gemini/msm_gemini_sync.c, (2) camera_v2/gemini/msm_gemini_sync.c, (3) camera_v2/jpeg_10/msm_jpeg_sync.c, (4) gemini/msm_gemini_sync.c, (5) jpeg_10/msm_jpeg_sync.c, and (6) mercury/msm_mercury_sync.c.",
+	"status": "Candidate"
+}, {
+	"reference": "MLIST:[oss-security] 20131015 Report - Stack-based buffer overflow and memory disclosure in camera driver (CVE-2013-4748 CVE-2013-4739)   |   URL:http://www.openwall.com/lists/oss-security/2013/10/15/4   |   CONFIRM:https://www.codeaurora.org/projects/security-advisories/stack-based-buffer-overflow-and-memory-disclosure-camera-driver-cve-2013-4748-cve-2013-4739",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130701)",
+	"id": "CVE-2013-4738",
+	"description": "Multiple stack-based buffer overflows in the MSM camera driver for the Linux kernel 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, allow attackers to gain privileges via (1) a crafted VIDIOC_MSM_VPE_DEQUEUE_STREAM_BUFF_INFO ioctl call, related to drivers/media/platform/msm/camera_v2/pproc/vpe/msm_vpe.c, or (2) a crafted VIDIOC_MSM_CPP_DEQUEUE_STREAM_BUFF_INFO ioctl call, related to drivers/media/platform/msm/camera_v2/pproc/cpp/msm_cpp.c.",
+	"status": "Candidate"
+}, {
+	"reference": "MLIST:[oss-security] 20131015 Report - Stack-based buffer overflow and memory disclosure in camera driver (CVE-2013-4748 CVE-2013-4739)   |   URL:http://www.openwall.com/lists/oss-security/2013/10/15/4   |   CONFIRM:https://www.codeaurora.org/projects/security-advisories/stack-based-buffer-overflow-and-memory-disclosure-camera-driver-cve-2013-4748-cve-2013-4739",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130701)",
+	"id": "CVE-2013-4739",
+	"description": "The MSM camera driver for the Linux kernel 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, allows attackers to obtain sensitive information from kernel stack memory via (1) a crafted MSM_MCR_IOCTL_EVT_GET ioctl call, related to drivers/media/platform/msm/camera_v1/mercury/msm_mercury_sync.c, or (2) a crafted MSM_JPEG_IOCTL_EVT_GET ioctl call, related to drivers/media/platform/msm/camera_v2/jpeg_10/msm_jpeg_sync.c.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20130806 CORE-2013-0708 - Hikvision IP Cameras Multiple Vulnerabilities   |   URL:http://archives.neohapsis.com/archives/bugtraq/2013-08/0046.html   |   MISC:http://packetstormsecurity.com/files/122718/Hikvision-IP-Cameras-Overflow-Bypass-Privilege-Escalation.html   |   MISC:http://www.coresecurity.com/advisories/hikvision-ip-cameras-multiple-vulnerabilities   |   BID:61642   |   URL:http://www.securityfocus.com/bid/61642   |   XF:ds2cd7153e-cve20134977-bo(86292)   |   URL:http://xforce.iss.net/xforce/xfdb/86292",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130729)",
+	"id": "CVE-2013-4977",
+	"description": "Buffer overflow in the RTSP Packet Handler in Hikvision DS-2CD7153-E IP camera with firmware 4.1.0 b130111 (Jan 2013), and possibly other devices, allows remote attackers to cause a denial of service (device crash and reboot) and possibly execute arbitrary code via a long string in the Range header field in an RTSP transaction.",
+	"status": "Candidate"
+}, {
+	"reference": "APPLE:APPLE-SA-2013-10-22-1   |   URL:http://lists.apple.com/archives/security-announce/2013/Oct/msg00002.html",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130815)",
+	"id": "CVE-2013-5144",
+	"description": "Passcode Lock in Apple iOS before 7.0.3 on iPhone devices allows physically proximate attackers to bypass an intended passcode requirement, and dial arbitrary telephone numbers, by tapping the emergency-call button during a certain notification and camera-pane state to trigger a NULL pointer dereference.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://support.apple.com/kb/HT5957   |   APPLE:APPLE-SA-2013-09-26-1   |   URL:http://lists.apple.com/archives/security-announce/2013/Sep/msg00009.html",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130815)",
+	"id": "CVE-2013-5161",
+	"description": "Passcode Lock in Apple iOS before 7.0.2 does not properly manage the lock state, which allows physically proximate attackers to bypass an intended passcode requirement, and open the Camera app or read the list of all recently opened apps, by leveraging unspecified transition errors.",
+	"status": "Candidate"
+}, {
+	"reference": "FULLDISC:20131107 FOSCAM Wireless IP Camera - SSID Cross Site Scripting   |   URL:http://archives.neohapsis.com/archives/fulldisclosure/2013-11/0046.html   |   MISC:http://packetstormsecurity.com/files/123943/FOSCAM-Wireless-IP-Camera-Cross-Site-Scripting.html   |   OSVDB:99550   |   URL:http://osvdb.org/99550   |   SECUNIA:55080   |   URL:http://secunia.com/advisories/55080   |   XF:foscam-ipcameras-cve20135215-xss(88629)   |   URL:http://xforce.iss.net/xforce/xfdb/88629",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130815)",
+	"id": "CVE-2013-5215",
+	"description": "Cross-site scripting (XSS) vulnerability in the web interface \"WiFi scan\" option in FOSCAM Wireless IP Cameras allows remote attackers to inject arbitrary web script or HTML via the SSID.",
+	"status": "Candidate"
+}, {
+	"reference": "CISCO:20131014 Cisco Video Surveillance 4000 Series IP Camera Default Credential Vulnerability   |   URL:http://tools.cisco.com/security/center/content/CiscoSecurityNotice/CVE-2013-5535",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20130822)",
+	"id": "CVE-2013-5535",
+	"description": "The analytics page on Cisco Video Surveillance 4000 IP cameras has hardcoded credentials, which allows remote attackers to watch the video feed by leveraging knowledge of the password, aka Bug IDs CSCuj70402 and CSCuj70419.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:https://www.codeaurora.org/cgit/quic/la//kernel/msm/commit/?id=60e4af06161d91d5aeaa04c7d6e9f4345a6acdd4   |   CONFIRM:https://www.codeaurora.org/cgit/quic/la//kernel/msm/commit/?id=7beb04ea945a7178e61d935918d3cb152996b558   |   CONFIRM:https://www.codeaurora.org/projects/security-advisories/out-bounds-array-access-camera-driver-cve-2013-6123   |   XF:code-aurora-cve20136123-priv-esc(90505)   |   URL:http://xforce.iss.net/xforce/xfdb/90505",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20131015)",
+	"id": "CVE-2013-6123",
+	"description": "Multiple array index errors in drivers/media/video/msm/server/msm_cam_server.c in the MSM camera driver for the Linux kernel 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, allow attackers to gain privileges by leveraging camera device-node access, related to the (1) msm_ctrl_cmd_done, (2) msm_ioctl_server, and (3) msm_server_send_ctrl functions.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20140110 [CVE-2013-7204] CSRF in Conceptronic IP Camera (CIPCAMPTIWL)   |   URL:http://www.securityfocus.com/archive/1/archive/1/530717/100/0/threaded   |   EXPLOIT-DB:30914   |   URL:http://www.exploit-db.com/exploits/30914   |   OSVDB:101930   |   URL:http://osvdb.org/101930",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20131223)",
+	"id": "CVE-2013-7204",
+	"description": "Cross-site request forgery (CSRF) vulnerability in set_users.cgi in Conceptronic CIPCAMPTIWL Camera 1.0 with firmware 21.37.2.49 allows remote attackers to hijack the authentication of administrators for requests that add arbitrary users.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://tools.cisco.com/security/center/viewAlert.x?alertId=32568   |   CISCO:20140124 Cisco Video Surveillance 5000 Series HD IP Dome Camera Multiple Cross-Site Scripting Vulnerabilities   |   URL:http://tools.cisco.com/security/center/content/CiscoSecurityNotice/CVE-2014-0673   |   BID:65145   |   URL:http://www.securityfocus.com/bid/65145   |   OSVDB:102557   |   URL:http://osvdb.org/102557   |   SECTRACK:1029689   |   URL:http://www.securitytracker.com/id/1029689   |   SECUNIA:56552   |   URL:http://secunia.com/advisories/56552   |   XF:cisco-video-cve20140673-xss(90733)   |   URL:http://xforce.iss.net/xforce/xfdb/90733",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20140102)",
+	"id": "CVE-2014-0673",
+	"description": "Multiple cross-site scripting (XSS) vulnerabilities in the web interface on Cisco Video Surveillance 5000 HD IP Dome cameras allow remote attackers to inject arbitrary web script or HTML via a crafted URL, aka Bug IDs CSCud10943 and CSCud10950.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:http://packetstormsecurity.com/files/129262/TRENDnet-SecurView-Wireless-Network-Camera-TV-IP422WN-Buffer-Overflow.html   |   MISC:http://www.zeroscience.mk/codes/trendnet_bof.txt   |   MISC:http://www.zeroscience.mk/en/vulnerabilities/ZSL-2014-5211.php   |   BID:71292   |   URL:http://www.securityfocus.com/bid/71292   |   XF:trendnet-tvip422wn-bo(98948)   |   URL:http://xforce.iss.net/xforce/xfdb/98948",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20150113)",
+	"id": "CVE-2014-10011",
+	"description": "Stack-based buffer overflow in UltraCamLib in the UltraCam ActiveX Control (UltraCamX.ocx) for the TRENDnet SecurView camera TV-IP422WN allows remote attackers to execute arbitrary code via a long string to the (1) CGI_ParamSet, (2) OpenFileDlg, (3) SnapFileName, (4) Password, (5) SetCGIAPNAME, (6) AccountCode, or (7) RemoteHost function.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://www.mozilla.org/security/announce/2014/mfsa2014-19.html   |   CONFIRM:https://bugzilla.mozilla.org/show_bug.cgi?id=961512   |   CONFIRM:http://www.oracle.com/technetwork/topics/security/bulletinapr2016-2952098.html   |   GENTOO:GLSA-201504-01   |   URL:https://security.gentoo.org/glsa/201504-01   |   SUSE:SUSE-SU-2014:0418   |   URL:http://lists.opensuse.org/opensuse-security-announce/2014-03/msg00016.html   |   SUSE:openSUSE-SU-2014:0419   |   URL:http://lists.opensuse.org/opensuse-security-announce/2014-03/msg00017.html   |   SUSE:openSUSE-SU-2014:0448   |   URL:http://lists.opensuse.org/opensuse-security-announce/2014-03/msg00022.html   |   SUSE:openSUSE-SU-2014:0584   |   URL:http://lists.opensuse.org/opensuse-security-announce/2014-04/msg00016.html",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20140116)",
+	"id": "CVE-2014-1499",
+	"description": "Mozilla Firefox before 28.0 and SeaMonkey before 2.25 allow remote attackers to spoof the domain name in the WebRTC (1) camera or (2) microphone permission prompt by triggering navigation at a certain time during generation of this prompt.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://www.mozilla.org/security/announce/2014/mfsa2014-81.html   |   CONFIRM:https://bugzilla.mozilla.org/show_bug.cgi?id=1062876   |   CONFIRM:http://www.oracle.com/technetwork/topics/security/bulletinapr2015-2511959.html   |   DEBIAN:DSA-3050   |   URL:http://www.debian.org/security/2014/dsa-3050   |   DEBIAN:DSA-3061   |   URL:http://www.debian.org/security/2014/dsa-3061   |   FEDORA:FEDORA-2014-13042   |   URL:http://lists.fedoraproject.org/pipermail/package-announce/2014-October/141085.html   |   FEDORA:FEDORA-2014-14084   |   URL:http://lists.fedoraproject.org/pipermail/package-announce/2014-November/141796.html   |   GENTOO:GLSA-201504-01   |   URL:https://security.gentoo.org/glsa/201504-01   |   SUSE:openSUSE-SU-2014:1343   |   URL:http://lists.opensuse.org/opensuse-updates/2014-11/msg00000.html   |   SUSE:openSUSE-SU-2014:1346   |   URL:http://lists.opensuse.org/opensuse-updates/2014-11/msg00003.html   |   SUSE:openSUSE-SU-2014:1344   |   URL:http://lists.opensuse.org/opensuse-updates/2014-11/msg00001.html   |   SUSE:openSUSE-SU-2014:1345   |   URL:http://lists.opensuse.org/opensuse-updates/2014-11/msg00002.html   |   SUSE:openSUSE-SU-2015:0138   |   URL:http://lists.opensuse.org/opensuse-security-announce/2015-01/msg00024.html   |   SUSE:openSUSE-SU-2015:1266   |   URL:http://lists.opensuse.org/opensuse-security-announce/2015-07/msg00031.html   |   UBUNTU:USN-2372-1   |   URL:http://www.ubuntu.com/usn/USN-2372-1   |   UBUNTU:USN-2373-1   |   URL:http://www.ubuntu.com/usn/USN-2373-1   |   BID:70425   |   URL:http://www.securityfocus.com/bid/70425   |   SECTRACK:1031028   |   URL:http://www.securitytracker.com/id/1031028   |   SECTRACK:1031030   |   URL:http://www.securitytracker.com/id/1031030   |   SECUNIA:61387   |   URL:http://secunia.com/advisories/61387   |   SECUNIA:62021   |   URL:http://secunia.com/advisories/62021   |   SECUNIA:62022   |   URL:http://secunia.com/advisories/62022   |   SECUNIA:62023   |   URL:http://secunia.com/advisories/62023",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20140116)",
+	"id": "CVE-2014-1585",
+	"description": "The WebRTC video-sharing feature in dom/media/MediaManager.cpp in Mozilla Firefox before 33.0, Firefox ESR 31.x before 31.2, and Thunderbird 31.x before 31.2 does not properly recognize Stop Sharing actions for videos in IFRAME elements, which allows remote attackers to obtain sensitive information from the local camera by maintaining a session after the user tries to discontinue streaming.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://www.mozilla.org/security/announce/2014/mfsa2014-81.html   |   CONFIRM:https://bugzilla.mozilla.org/show_bug.cgi?id=1062981   |   CONFIRM:http://www.oracle.com/technetwork/topics/security/bulletinapr2015-2511959.html   |   DEBIAN:DSA-3050   |   URL:http://www.debian.org/security/2014/dsa-3050   |   DEBIAN:DSA-3061   |   URL:http://www.debian.org/security/2014/dsa-3061   |   FEDORA:FEDORA-2014-13042   |   URL:http://lists.fedoraproject.org/pipermail/package-announce/2014-October/141085.html   |   FEDORA:FEDORA-2014-14084   |   URL:http://lists.fedoraproject.org/pipermail/package-announce/2014-November/141796.html   |   GENTOO:GLSA-201504-01   |   URL:https://security.gentoo.org/glsa/201504-01   |   SUSE:openSUSE-SU-2014:1343   |   URL:http://lists.opensuse.org/opensuse-updates/2014-11/msg00000.html   |   SUSE:openSUSE-SU-2014:1346   |   URL:http://lists.opensuse.org/opensuse-updates/2014-11/msg00003.html   |   SUSE:openSUSE-SU-2014:1344   |   URL:http://lists.opensuse.org/opensuse-updates/2014-11/msg00001.html   |   SUSE:openSUSE-SU-2014:1345   |   URL:http://lists.opensuse.org/opensuse-updates/2014-11/msg00002.html   |   SUSE:openSUSE-SU-2015:0138   |   URL:http://lists.opensuse.org/opensuse-security-announce/2015-01/msg00024.html   |   SUSE:openSUSE-SU-2015:1266   |   URL:http://lists.opensuse.org/opensuse-security-announce/2015-07/msg00031.html   |   UBUNTU:USN-2372-1   |   URL:http://www.ubuntu.com/usn/USN-2372-1   |   UBUNTU:USN-2373-1   |   URL:http://www.ubuntu.com/usn/USN-2373-1   |   BID:70427   |   URL:http://www.securityfocus.com/bid/70427   |   SECTRACK:1031028   |   URL:http://www.securitytracker.com/id/1031028   |   SECTRACK:1031030   |   URL:http://www.securitytracker.com/id/1031030   |   SECUNIA:61387   |   URL:http://secunia.com/advisories/61387   |   SECUNIA:62021   |   URL:http://secunia.com/advisories/62021   |   SECUNIA:62022   |   URL:http://secunia.com/advisories/62022   |   SECUNIA:62023   |   URL:http://secunia.com/advisories/62023",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20140116)",
+	"id": "CVE-2014-1586",
+	"description": "content/base/src/nsDocument.cpp in Mozilla Firefox before 33.0, Firefox ESR 31.x before 31.2, and Thunderbird 31.x before 31.2 does not consider whether WebRTC video sharing is occurring, which allows remote attackers to obtain sensitive information from the local camera in certain IFRAME situations by maintaining a session after the user temporarily navigates away.",
+	"status": "Candidate"
+}, {
+	"reference": "FULLDISC:20140508 CVE-2014-1849 Foscam Dynamic DNS predictable credentials vulnerability   |   URL:http://seclists.org/fulldisclosure/2014/May/35   |   MISC:http://blog.shekyan.com/2014/05/cve-2014-1849-foscam-dynamic-dns-predictable-credentials-vulnerability.html   |   MISC:https://github.com/artemharutyunyan/getmecamtool/blob/master/src/dnsmod.c",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20140202)",
+	"id": "CVE-2014-1849",
+	"description": "Foscam IP camera 11.37.2.49 and other versions, when using the Foscam DynDNS option, generates credentials based on predictable camera subdomain names, which allows remote attackers to spoof or hijack arbitrary cameras and conduct other attacks by modifying arbitrary camera records in the Foscam DNS server.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:https://www.trustwave.com/Resources/Security-Advisories/Advisories/TWSL2014-007/?fid=3850   |   CONFIRM:http://www.y-cam.com/y-cam-security-fix/",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20140207)",
+	"id": "CVE-2014-1900",
+	"description": "Y-Cam camera models SD range YCB003, YCK003, and YCW003; S range YCB004, YCK004, YCW004; EyeBall YCEB03; Bullet VGA YCBL03 and YCBLB3; Bullet HD 720 YCBLHD5; Y-cam Classic Range YCB002, YCK002, and YCW003; and Y-cam Original Range YCB001, YCW001, running firmware 4.30 and earlier, allow remote attackers to bypass authentication and obtain sensitive information via a leading \"/./\" in a request to en/account/accedit.asp.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:https://www.trustwave.com/Resources/Security-Advisories/Advisories/TWSL2014-007/?fid=3850   |   CONFIRM:http://www.y-cam.com/y-cam-security-fix/",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20140207)",
+	"id": "CVE-2014-1901",
+	"description": "Y-Cam camera models SD range YCB003, YCK003, and YCW003; S range YCB004, YCK004, YCW004; EyeBall YCEB03; Bullet VGA YCBL03 and YCBLB3; Bullet HD 720 YCBLHD5; Y-cam Classic Range YCB002, YCK002, and YCW003; and Y-cam Original Range YCB001, YCW001, running firmware 4.30 and earlier, allow remote authenticated users to cause a denial of service (reboot) via a malformed (1) path parameter to en/store_main.asp, (2) item parameter to en/account/accedit.asp, or (3) emailid parameter to en/smtpclient.asp.  NOTE: this issue can be exploited without authentication by leveraging CVE-2014-1900.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:https://www.trustwave.com/Resources/Security-Advisories/Advisories/TWSL2014-007/?fid=3850   |   CONFIRM:http://www.y-cam.com/y-cam-security-fix/",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20140207)",
+	"id": "CVE-2014-1902",
+	"description": "Multiple cross-site scripting (XSS) vulnerabilities in Y-Cam camera models SD range YCB003, YCK003, and YCW003; S range YCB004, YCK004, YCW004; EyeBall YCEB03; Bullet VGA YCBL03 and YCBLB3; Bullet HD 720 YCBLHD5; Y-cam Classic Range YCB002, YCK002, and YCW003; and Y-cam Original Range YCB001, YCW001, running firmware 4.30 and earlier, allow remote authenticated users to inject arbitrary web script or HTML via the (1) SYSCONTACT parameter to form/identityApply, as triggered using en/identity.asp; (2) PASSWD parameter to form/accAdd, as triggered using en/account/accedit.asp; (3) NTPSERVER parameter to form/clockApply, as triggered using en/clock.asp; (4) SERVER parameter to form/smtpclientApply, as triggered using en/smtpclient.asp; (5) SERVER parameter to form/ftpApply, as triggered using en/ftp.asp; or (6) SERVER parameter to form/httpEventApply, as triggered using en/httpevent.asp.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://foscam.us/forum/mjpeg-54-firmware-bug-user-logon-bypass-t8442.html   |   CERT-VN:VU#525132   |   URL:http://www.kb.cert.org/vuls/id/525132",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20140207)",
+	"id": "CVE-2014-1911",
+	"description": "The Foscam FI8910W camera with firmware before 11.37.2.55 allows remote attackers to obtain sensitive video and image data via a blank username and password.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://www.iodata.jp/support/information/2014/qwatch/   |   JVN:JVN#94592501   |   URL:http://jvn.jp/en/jp/JVN94592501/index.html   |   JVNDB:JVNDB-2014-000087   |   URL:http://jvndb.jvn.jp/jvndb/JVNDB-2014-000087",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20140527)",
+	"id": "CVE-2014-3895",
+	"description": "The I-O DATA TS-WLCAM camera with firmware 1.06 and earlier, TS-WLCAM/V camera with firmware 1.06 and earlier, TS-WPTCAM camera with firmware 1.08 and earlier, TS-PTCAM camera with firmware 1.08 and earlier, TS-PTCAM/POE camera with firmware 1.08 and earlier, and TS-WLC2 camera with firmware 1.02 and earlier allow remote attackers to bypass authentication, and consequently obtain sensitive credential and configuration data, via unspecified vectors.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:https://docs.google.com/spreadsheets/d/1t5GXwjw82SyunALVJb2w0zi3FoLRIkfGPc7AMjRF0r4/edit?usp=sharing   |   CERT-VN:VU#582497   |   URL:http://www.kb.cert.org/vuls/id/582497   |   CERT-VN:VU#805753   |   URL:http://www.kb.cert.org/vuls/id/805753",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20140830)",
+	"id": "CVE-2014-5566",
+	"description": "The Selfshot - Front Flash Camera (aka com.americos.selfshot) application 1.1 for Android does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:https://docs.google.com/spreadsheets/d/1t5GXwjw82SyunALVJb2w0zi3FoLRIkfGPc7AMjRF0r4/edit?usp=sharing   |   CERT-VN:VU#164409   |   URL:http://www.kb.cert.org/vuls/id/164409   |   CERT-VN:VU#582497   |   URL:http://www.kb.cert.org/vuls/id/582497",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20140830)",
+	"id": "CVE-2014-5618",
+	"description": "The Cartoon Camera (aka com.fingersoft.cartooncamera) application 1.2.2 for Android does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:https://docs.google.com/spreadsheets/d/1t5GXwjw82SyunALVJb2w0zi3FoLRIkfGPc7AMjRF0r4/edit?usp=sharing   |   CERT-VN:VU#579065   |   URL:http://www.kb.cert.org/vuls/id/579065   |   CERT-VN:VU#582497   |   URL:http://www.kb.cert.org/vuls/id/582497",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20140830)",
+	"id": "CVE-2014-5856",
+	"description": "The Selfie Camera -Facial Beauty- (aka com.cfinc.cunpic) application 1.2.7 for Android does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:http://www.zerodayinitiative.com/advisories/ZDI-14-364/   |   CONFIRM:http://security.panasonic.com/pss/security/library/howto_update_NCV.html",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20141013)",
+	"id": "CVE-2014-8755",
+	"description": "Panasonic Network Camera View 3 and 4 allows remote attackers to execute arbitrary code via a crafted page, which triggers an invalid pointer dereference, related to \"the ability to nullify an arbitrary address in memory.\"",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:http://www.zerodayinitiative.com/advisories/ZDI-14-363/   |   CONFIRM:http://panasonic.net/pcc/cgi-bin/products/netwkcam/download_us/tbookmarka_m.cgi?m=%20&mm=2010073014092324",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20141013)",
+	"id": "CVE-2014-8756",
+	"description": "The NcrCtl4.NcrNet.1 control in Panasonic Network Camera Recorder before 4.04R03 allows remote attackers to execute arbitrary code via a crafted GetVOLHeader method call, which writes null bytes to an arbitrary address.",
+	"status": "Candidate"
+}, {
+	"reference": "FULLDISC:20141117 Vulnerabilities in D-Link DCS-2103   |   URL:http://seclists.org/fulldisclosure/2014/Nov/42   |   MISC:http://packetstormsecurity.com/files/129138/D-Link-DCS-2103-Directory-Traversal.html   |   MISC:http://websecurity.com.ua/7250/",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20141203)",
+	"id": "CVE-2014-9234",
+	"description": "Directory traversal vulnerability in cgi-bin/sddownload.cgi in D-link IP camera DCS-2103 with firmware 1.0.0 allows remote attackers to read arbitrary files via a .. (dot dot) in the file parameter.",
+	"status": "Candidate"
+}, {
+	"reference": "FULLDISC:20141117 Vulnerabilities in D-Link DCS-2103   |   URL:http://seclists.org/fulldisclosure/2014/Nov/42   |   MISC:http://packetstormsecurity.com/files/129138/D-Link-DCS-2103-Directory-Traversal.html   |   MISC:http://websecurity.com.ua/7250/",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20141203)",
+	"id": "CVE-2014-9238",
+	"description": "D-link IP camera DCS-2103 with firmware 1.0.0 allows remote attackers to obtain the installation path via the file parameter to cgi-bin/sddownload.cgi, as demonstrated by a / (forward slash) character.",
+	"status": "Candidate"
+}, {
+	"reference": "FULLDISC:20141219 BF and XSS vulnerabilities in D-Link DCS-2103   |   URL:http://seclists.org/fulldisclosure/2014/Dec/85   |   MISC:http://packetstormsecurity.com/files/129609/D-Link-DCS-2103-Brute-Force-Cross-Site-Scripting.html   |   MISC:http://websecurity.com.ua/7288/",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20150105)",
+	"id": "CVE-2014-9517",
+	"description": "Cross-site scripting (XSS) vulnerability in D-link IP camera DCS-2103 with firmware before 1.20 allows remote attackers to inject arbitrary web script or HTML via the QUERY_STRING to vb.htm.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-07-01.html   |   CONFIRM:https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=2e57a46ab2ba7299d99d9cdc1382bd1e612963fb   |   BID:91628   |   URL:http://www.securityfocus.com/bid/91628",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160531)",
+	"id": "CVE-2014-9782",
+	"description": "drivers/media/platform/msm/camera_v2/sensor/actuator/msm_actuator.c in the Qualcomm components in Android before 2016-07-05 on Nexus 5 and 7 (2013) devices does not validate direction and step parameters, which allows attackers to gain privileges via a crafted application, aka Android internal bug 28431531 and Qualcomm internal bug CR511349.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-07-01.html   |   CONFIRM:https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=a7502f4f801bb95bff73617309835bb7a016cde5   |   CONFIRM:https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=2b1050b49a9a5f7bb57006648d145e001a3eaa8b   |   BID:91628   |   URL:http://www.securityfocus.com/bid/91628",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160531)",
+	"id": "CVE-2014-9783",
+	"description": "drivers/media/platform/msm/camera_v2/sensor/cci/msm_cci.c in the Qualcomm components in Android before 2016-07-05 on Nexus 7 (2013) devices does not validate certain values, which allows attackers to gain privileges via a crafted application, aka Android internal bug 28441831 and Qualcomm internal bug CR511382.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-07-01.html   |   CONFIRM:https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=2fb303d9c6ca080f253b10ed9384293ca69ad32b   |   BID:91628   |   URL:http://www.securityfocus.com/bid/91628",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160531)",
+	"id": "CVE-2014-9786",
+	"description": "Heap-based buffer overflow in drivers/media/platform/msm/camera_v2/sensor/actuator/msm_actuator.c in the Qualcomm components in Android before 2016-07-05 on Nexus 5 and 7 (2013) devices allows attackers to gain privileges via a crafted application, aka Android internal bug 28557260 and Qualcomm internal bug CR545979.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-08-01.html   |   CONFIRM:https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=8e6daae70422ad35146a87700e6634a747d1ff5d   |   BID:92219   |   URL:http://www.securityfocus.com/bid/92219",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160624)",
+	"id": "CVE-2014-9866",
+	"description": "drivers/media/platform/msm/camera_v2/sensor/csid/msm_csid.c in the Qualcomm components in Android before 2016-08-05 on Nexus 5 and 7 (2013) devices does not validate a certain parameter, which allows attackers to gain privileges via a crafted application, aka Android internal bug 28747684 and Qualcomm internal bug CR511358.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-08-01.html   |   CONFIRM:https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=322c518689a7f820165ca4c5d6b750b02ac34665   |   BID:92219   |   URL:http://www.securityfocus.com/bid/92219",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160624)",
+	"id": "CVE-2014-9867",
+	"description": "drivers/media/platform/msm/camera_v2/isp/msm_isp_axi_util.c in the Qualcomm components in Android before 2016-08-05 on Nexus 5 and 7 (2013) devices does not validate the number of streams, which allows attackers to gain privileges via a crafted application, aka Android internal bug 28749629 and Qualcomm internal bug CR514702.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-08-01.html   |   CONFIRM:https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=1f274b74c00187ba1c379971503f51944148b22f   |   BID:92219   |   URL:http://www.securityfocus.com/bid/92219",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160624)",
+	"id": "CVE-2014-9868",
+	"description": "drivers/media/platform/msm/camera_v2/sensor/csiphy/msm_csiphy.c in the Qualcomm components in Android before 2016-08-05 on Nexus 5 and 7 (2013) devices allows attackers to gain privileges via an application that provides a crafted mask value, aka Android internal bug 28749721 and Qualcomm internal bug CR511976.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-08-01.html   |   CONFIRM:https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=7a26934e4196b4aa61944081989189d59b108768   |   CONFIRM:https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=8d1f7531ff379befc129a6447642061e87562bca   |   BID:92219   |   URL:http://www.securityfocus.com/bid/92219",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160624)",
+	"id": "CVE-2014-9869",
+	"description": "drivers/media/platform/msm/camera_v2/isp/msm_isp_stats_util.c in the Qualcomm components in Android before 2016-08-05 on Nexus 5 and 7 (2013) devices does not validate certain index values, which allows attackers to gain privileges via a crafted application, aka Android internal bug 28749728 and Qualcomm internal bug CR514711.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-08-01.html   |   CONFIRM:https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=f615e40c706708f74cd826d5b19c63025f54c041   |   BID:92219   |   URL:http://www.securityfocus.com/bid/92219",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160624)",
+	"id": "CVE-2014-9871",
+	"description": "Multiple buffer overflows in drivers/media/platform/msm/camera_v2/isp/msm_isp_util.c in the Qualcomm components in Android before 2016-08-05 on Nexus 5 and 7 (2013) devices allow attackers to gain privileges via a crafted application, aka Android internal bug 28749803 and Qualcomm internal bug CR514717.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-08-01.html   |   CONFIRM:https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=f0c0112a6189747a3f24f20210157f9974477e03   |   BID:92219   |   URL:http://www.securityfocus.com/bid/92219",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160624)",
+	"id": "CVE-2014-9877",
+	"description": "drivers/media/platform/msm/camera_v2/sensor/actuator/msm_actuator.c in the Qualcomm components in Android before 2016-08-05 on Nexus 5 and 7 (2013) devices mishandles a user-space pointer, which allows attackers to gain privileges via a crafted application, aka Android internal bug 28768281 and Qualcomm internal bug CR547231.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-08-01.html   |   CONFIRM:https://source.codeaurora.org/quic/la/kernel/msm/commit?id=f4e2f2d4ef58c88340774099dff3324ec8baa24a   |   BID:92219   |   URL:http://www.securityfocus.com/bid/92219",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160624)",
+	"id": "CVE-2014-9889",
+	"description": "drivers/media/platform/msm/camera_v2/pproc/cpp/msm_cpp.c in the Qualcomm components in Android before 2016-08-05 on Nexus 5 devices does not validate CPP frame messages, which allows attackers to gain privileges via a crafted application, aka Android internal bug 28803645 and Qualcomm internal bug CR674712.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-08-01.html   |   CONFIRM:https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=14e0c8614d2715589583d8a95e33c422d110eb6f   |   BID:92219   |   URL:http://www.securityfocus.com/bid/92219",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160624)",
+	"id": "CVE-2014-9890",
+	"description": "Off-by-one error in drivers/media/platform/msm/camera_v2/sensor/cci/msm_cci.c in the Qualcomm components in Android before 2016-08-05 on Nexus 5 and 7 (2013) devices allows attackers to gain privileges via a crafted application that sends an I2C command, aka Android internal bug 28770207 and Qualcomm internal bug CR529177.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:https://www.codeaurora.org/projects/security-advisories/multiple-issues-camera-drivers-cve-2014-9410-cve-2015-0568   |   BID:92379   |   URL:http://www.securityfocus.com/bid/92379",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20150107)",
+	"id": "CVE-2015-0568",
+	"description": "Use-after-free vulnerability in the msm_set_crop function in drivers/media/video/msm/msm_camera.c in the MSM-Camera driver for the Linux kernel 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, allows attackers to gain privileges or cause a denial of service (memory corruption) via an application that makes a crafted ioctl call.",
+	"status": "Candidate"
+}, {
+	"reference": "CERT-VN:VU#253708   |   URL:http://www.kb.cert.org/vuls/id/253708",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20150403)",
+	"id": "CVE-2015-2866",
+	"description": "SQL injection vulnerability on the Grandstream GXV3611_HD camera with firmware before 1.0.3.9 beta allows remote attackers to execute arbitrary SQL commands by attempting to establish a TELNET session with a crafted username.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://googlechromereleases.blogspot.com/2015/04/stable-channel-update_14.html   |   CONFIRM:https://code.google.com/p/chromium/issues/detail?id=433170   |   DEBIAN:DSA-3238   |   URL:http://www.debian.org/security/2015/dsa-3238   |   SUSE:openSUSE-SU-2015:0748   |   URL:http://lists.opensuse.org/opensuse-updates/2015-04/msg00040.html   |   BID:74225   |   URL:http://www.securityfocus.com/bid/74225",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20150419)",
+	"id": "CVE-2015-3334",
+	"description": "browser/ui/website_settings/website_settings.cc in Google Chrome before 42.0.2311.90 does not always display \"Media: Allowed by you\" in a Permissions table after the user has granted camera permission to a web site, which might make it easier for user-assisted remote attackers to obtain sensitive video data from a device's physical environment via a crafted web site that turns on the camera at a time when the user believes that camera access is prohibited.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://jvn.jp/en/jp/JVN71815309/995707/index.html   |   JVN:JVN#71815309   |   URL:http://jvn.jp/en/jp/JVN71815309/index.html   |   JVNDB:JVNDB-2015-000131   |   URL:http://jvndb.jvn.jp/jvndb/JVNDB-2015-000131",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20150724)",
+	"id": "CVE-2015-5633",
+	"description": "The Newphoria Auction Camera application for iOS and before 1.2 for Android allows attackers to bypass a URL whitelist protection mechanism and obtain API access via unspecified vectors.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://www1.huawei.com/en/security/psirt/security-bulletins/security-advisories/hw-465532.htm",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20151117)",
+	"id": "CVE-2015-8225",
+	"description": "The Joint Photographic Experts Group Processing Unit (JPU) driver in Huawei ALE smartphones with software before ALE-UL00C00B220 and ALE-TL00C01B220 and GEM-703L smartphones with software before V100R001C233B111 allows remote attackers to cause a denial of service (crash) via a crafted application with the system or camera permission, a different vulnerability than CVE-2015-8226.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://www1.huawei.com/en/security/psirt/security-bulletins/security-advisories/hw-465532.htm",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20151117)",
+	"id": "CVE-2015-8226",
+	"description": "The Joint Photographic Experts Group Processing Unit (JPU) driver in Huawei ALE smartphones with software before ALE-UL00C00B220 and ALE-TL00C01B220 and GEM-703L smartphones with software before V100R001C233B111 allows remote attackers to cause a denial of service (crash) via a crafted application with the system or camera permission, a different vulnerability than CVE-2015-8225.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://www.huawei.com/en/psirt/security-advisories/huawei-sa-20160104-01-smartphone-en",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20151120)",
+	"id": "CVE-2015-8304",
+	"description": "Integer overflow in Huawei P7 phones with software before P7-L07 V100R001C01B606 allows remote attackers to gain privileges via a crafted application with the system or camera permission.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://www.huawei.com/en/psirt/security-advisories/huawei-sa-20160104-02-smartphone-en",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20151120)",
+	"id": "CVE-2015-8305",
+	"description": "Huawei Sophia-L10 smartphones with software before P7-L10C900B852 allow attackers to cause a denial of service (system panic) via a crafted application with the system or camera privilege.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://www.huawei.com/en/psirt/security-advisories/huawei-sa-20160104-04-smartphone-en",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20151225)",
+	"id": "CVE-2015-8681",
+	"description": "The ovisp driver in Huawei P8 smartphones with software GRA-TL00 before GRA-TL00C01B230, GRA-CL00 before GRA-CL00C92B230, GRA-CL10 before GRA-CL10C92B230, GRA-UL00 before GRA-UL00C00B230, and GRA-UL10 before GRA-UL10C00B230, and Mate S smartphones with software CRR-TL00 before CRR-TL00C01B160SP01, CRR-UL00 before CRR-UL00C00B160, and CRR-CL00 before CRR-CL00C92B161 allows attackers to cause a denial of service (system crash) or gain privileges via a crafted application with the camera permission, aka an \"interface access control vulnerability.\"",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-08-01.html   |   CONFIRM:https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=51c39420e3a49d1a7f05a77c64369b7623088238   |   BID:92219   |   URL:http://www.securityfocus.com/bid/92219",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160624)",
+	"id": "CVE-2015-8938",
+	"description": "The MSM camera driver in the Qualcomm components in Android before 2016-08-05 on Nexus 6 devices does not validate input parameters, which allows attackers to gain privileges via a crafted application, aka Android internal bug 28804030 and Qualcomm internal bug CR766022.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-08-01.html   |   CONFIRM:https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=d4d4d1dd626b21e68e78395bab3382c1eb04877f   |   BID:92219   |   URL:http://www.securityfocus.com/bid/92219",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160624)",
+	"id": "CVE-2015-8941",
+	"description": "drivers/media/platform/msm/camera_v2/isp/msm_isp_axi_util.c in the Qualcomm components in Android before 2016-08-05 on Nexus 6 and 7 (2013) devices does not properly validate array indexes, which allows attackers to gain privileges via a crafted application, aka Android internal bug 28814502 and Qualcomm internal bug CR792473.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-08-01.html   |   CONFIRM:https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=9ec380c06bbd79493828fcc3c876d8a53fd3369f   |   BID:92219   |   URL:http://www.securityfocus.com/bid/92219",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160624)",
+	"id": "CVE-2015-8942",
+	"description": "drivers/media/platform/msm/camera_v2/pproc/cpp/msm_cpp.c in the Qualcomm components in Android before 2016-08-05 on Nexus 6 devices does not validate the stream state, which allows attackers to gain privileges via a crafted application, aka Android internal bug 28814652 and Qualcomm internal bug CR803246.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-03-01.html   |   CONFIRM:https://android.googlesource.com/platform/frameworks/av/+/899823966e78552bb6dfd7772403a4f91471d2b0   |   CONFIRM:https://android.googlesource.com/platform/frameworks/av/+/c9ab2b0bb05a7e19fb057e79b36e232809d70122   |   BID:84268   |   URL:http://www.securityfocus.com/bid/84268",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20151216)",
+	"id": "CVE-2016-0826",
+	"description": "libcameraservice in mediaserver in Android 4.x before 4.4.4, 5.x before 5.1.1 LMY49H, and 6.x before 2016-03-01 does not require use of the ICameraService::dump method for a camera service dump, which allows attackers to gain privileges via a crafted application that directly dumps, as demonstrated by obtaining Signature or SignatureOrSystem access, aka internal bug 26265403.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://hg.mozilla.org/releases/mozilla-release/rev/bafc86c12e63   |   CONFIRM:http://www.mozilla.org/security/announce/2016/mfsa2016-32.html   |   CONFIRM:https://bugzilla.mozilla.org/show_bug.cgi?id=1230768   |   GENTOO:GLSA-201605-06   |   URL:https://security.gentoo.org/glsa/201605-06   |   SUSE:openSUSE-SU-2016:0731   |   URL:http://lists.opensuse.org/opensuse-security-announce/2016-03/msg00029.html   |   SUSE:openSUSE-SU-2016:0733   |   URL:http://lists.opensuse.org/opensuse-security-announce/2016-03/msg00031.html   |   BID:84220   |   URL:http://www.securityfocus.com/bid/84220   |   SECTRACK:1035215   |   URL:http://www.securitytracker.com/id/1035215",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160120)",
+	"id": "CVE-2016-1975",
+	"description": "Multiple race conditions in dom/media/systemservices/CamerasChild.cpp in the WebRTC implementation in Mozilla Firefox before 45.0 on Windows might allow remote attackers to cause a denial of service (memory corruption) or possibly have unspecified other impact via unknown vectors.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-05-01.html   |   CONFIRM:https://android.googlesource.com/platform/frameworks/av/+/b04aee833c5cfb6b31b8558350feb14bb1a0f353",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160218)",
+	"id": "CVE-2016-2449",
+	"description": "services/camera/libcameraservice/device3/Camera3Device.cpp in mediaserver in Android 4.x before 4.4.4, 5.0.x before 5.0.2, 5.1.x before 5.1.1, and 6.x before 2016-05-01 does not validate template IDs, which allows attackers to gain privileges via a crafted application, as demonstrated by obtaining Signature or SignatureOrSystem access, aka internal bug 27568958.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-06-01.html",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160218)",
+	"id": "CVE-2016-2488",
+	"description": "The Qualcomm camera driver in Android before 2016-06-01 on Nexus 5, 5X, 6, 6P, and 7 (2013) devices allows attackers to gain privileges via a crafted application, aka internal bug 27600832.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-06-01.html",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160218)",
+	"id": "CVE-2016-2490",
+	"description": "The NVIDIA camera driver in Android before 2016-06-01 on Nexus 9 devices allows attackers to gain privileges via a crafted application, aka internal bug 27533373.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-06-01.html",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160218)",
+	"id": "CVE-2016-2491",
+	"description": "The NVIDIA camera driver in Android before 2016-06-01 on Nexus 9 devices allows attackers to gain privileges via a crafted application, aka internal bug 27556408.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-07-01.html",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160218)",
+	"id": "CVE-2016-2501",
+	"description": "The Qualcomm camera driver in Android before 2016-07-05 on Nexus 5X, 6, 6P, and 7 (2013) devices allows attackers to gain privileges via a crafted application, aka Android internal bug 27890772 and Qualcomm internal bug CR1001092.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-07-01.html",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160330)",
+	"id": "CVE-2016-3793",
+	"description": "The NVIDIA camera driver in Android before 2016-07-05 on Nexus 9 devices allows attackers to gain privileges via a crafted application, aka Android internal bug 28026625.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-07-01.html",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160330)",
+	"id": "CVE-2016-3814",
+	"description": "The NVIDIA camera driver in Android before 2016-07-05 on Nexus 9 devices allows attackers to obtain sensitive information via a crafted application, aka Android internal bug 28193342.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-07-01.html",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160330)",
+	"id": "CVE-2016-3815",
+	"description": "The NVIDIA camera driver in Android before 2016-07-05 on Nexus 9 devices allows attackers to obtain sensitive information via a crafted application, aka Android internal bug 28522274.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-08-01.html   |   CONFIRM:https://android.googlesource.com/platform/frameworks/av/+/1f24c730ab6ca5aff1e3137b340b8aeaeda4bdbc   |   BID:92238   |   URL:http://www.securityfocus.com/bid/92238",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160330)",
+	"id": "CVE-2016-3834",
+	"description": "The camera APIs in Android 4.x before 4.4.4, 5.0.x before 5.0.2, 5.1.x before 5.1.1, and 6.x before 2016-08-01 allow attackers to bypass intended access restrictions and obtain sensitive information about ANW buffer addresses via a crafted application, aka internal bug 28466701.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-09-01.html   |   BID:92877   |   URL:http://www.securityfocus.com/bid/92877",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160330)",
+	"id": "CVE-2016-3859",
+	"description": "The Qualcomm camera driver in Android before 2016-09-05 on Nexus 5, 5X, 6, and 6P devices allows attackers to gain privileges via a crafted application, aka Android internal bug 28815326 and Qualcomm internal bug CR1034641.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-10-01.html   |   CONFIRM:https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=b8874573428e8ce024f57c6242d662fcca5e5d55   |   BID:93322   |   URL:http://www.securityfocus.com/bid/93322",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160330)",
+	"id": "CVE-2016-3903",
+	"description": "drivers/media/platform/msm/camera_v2/sensor/csid/msm_csid.c in the Qualcomm camera driver in Android before 2016-10-05 on Nexus 5, Nexus 5X, Nexus 6, Nexus 6P, and Android One devices allows attackers to gain privileges via a crafted application, aka Android internal bug 29513227 and Qualcomm internal bug CR 1040857.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-10-01.html   |   CONFIRM:https://android.googlesource.com/platform/system/media/+/e9e44f797742f52996ebf307740dad58c28fd9b5   |   BID:93294   |   URL:http://www.securityfocus.com/bid/93294",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160330)",
+	"id": "CVE-2016-3915",
+	"description": "camera/src/camera_metadata.c in the Camera service in Android 4.x before 4.4.4, 5.0.x before 5.0.2, 5.1.x before 5.1.1, 6.x before 2016-10-01, and 7.0 before 2016-10-01 allows attackers to gain privileges via a crafted application, aka internal bug 30591838.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-10-01.html   |   CONFIRM:https://android.googlesource.com/platform/system/media/+/8e7a2b4d13bff03973dbad2bfb88a04296140433   |   BID:93294   |   URL:http://www.securityfocus.com/bid/93294",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160330)",
+	"id": "CVE-2016-3916",
+	"description": "camera/src/camera_metadata.c in the Camera service in Android 4.x before 4.4.4, 5.0.x before 5.0.2, 5.1.x before 5.1.1, 6.x before 2016-10-01, and 7.0 before 2016-10-01 allows attackers to gain privileges via a crafted application, aka internal bug 30741779.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-10-01.html   |   CONFIRM:https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=27fbeb6b025d5d46ccb0497cbed4c6e78ed1c5cc   |   BID:93322   |   URL:http://www.securityfocus.com/bid/93322",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160330)",
+	"id": "CVE-2016-3934",
+	"description": "drivers/media/platform/msm/camera_v2/sensor/io/msm_camera_cci_i2c.c in the Qualcomm camera driver in Android before 2016-10-05 on Nexus 5, Nexus 5X, Nexus 6, Nexus 6P, and Android One devices relies on variable-length arrays, which allows attackers to gain privileges via a crafted application, aka Android internal bug 30102557 and Qualcomm internal bug CR 789704.",
+	"status": "Candidate"
+}, {
+	"reference": "MLIST:[oss-security] 20160418 CVE request - samsumg android phone msm_sensor_config function write some range kernel address with any value   |   URL:http://www.openwall.com/lists/oss-security/2016/04/17/2   |   MLIST:[oss-security] 20160418 Re: CVE request - samsumg android phone msm_sensor_config function write some range kernel address with any value   |   URL:http://www.openwall.com/lists/oss-security/2016/04/18/8   |   CONFIRM:http://security.samsungmobile.com/smrupdate.html#SMR-JAN-2016",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160418)",
+	"id": "CVE-2016-4038",
+	"description": "Array index error in the msm_sensor_config function in kernel/SM-G9008V_CHN_KK_Opensource/Kernel/drivers/media/platform/msm/camera_v2/sensor/msm_sensor.c in Samsung devices with Android KK(4.4) or L and an APQ8084, MSM8974, or MSM8974pro chipset allows local users to have unspecified impact via the gpio_config.gpio_name value.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:https://support.apple.com/HT207143   |   CONFIRM:https://support.apple.com/HT207170   |   APPLE:APPLE-SA-2016-09-20   |   URL:http://lists.apple.com/archives/security-announce/2016/Sep/msg00006.html   |   APPLE:APPLE-SA-2016-09-20-3   |   URL:http://lists.apple.com/archives/security-announce/2016/Sep/msg00008.html   |   BID:93056   |   URL:http://www.securityfocus.com/bid/93056",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160511)",
+	"id": "CVE-2016-4750",
+	"description": "S2 Camera in Apple iOS before 10 and OS X before 10.12 allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://www.huawei.com/en/psirt/security-advisories/huawei-sa-20160716-01-smartphone-en",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160707)",
+	"id": "CVE-2016-6180",
+	"description": "The Camera driver in Huawei Honor 4C smartphones with software CHM-UL00C00 before CHM-UL00C00B564, CHM-TL00C01 before CHM-TL00C01B564, and CHM-TL00C00 before CHM-TL00HC00B564 allows attackers to cause a denial of service (system crash) or gain privileges via a crafted application, a different vulnerability than CVE-2016-6181, CVE-2016-6182, CVE-2016-6183, and CVE-2016-6184.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://www.huawei.com/en/psirt/security-advisories/huawei-sa-20160716-01-smartphone-en",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160707)",
+	"id": "CVE-2016-6181",
+	"description": "The Camera driver in Huawei Honor 4C smartphones with software CHM-UL00C00 before CHM-UL00C00B564, CHM-TL00C01 before CHM-TL00C01B564, and CHM-TL00C00 before CHM-TL00HC00B564 allows attackers to cause a denial of service (system crash) or gain privileges via a crafted application, a different vulnerability than CVE-2016-6180, CVE-2016-6182, CVE-2016-6183, and CVE-2016-6184.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://www.huawei.com/en/psirt/security-advisories/huawei-sa-20160716-01-smartphone-en",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160707)",
+	"id": "CVE-2016-6182",
+	"description": "The Camera driver in Huawei Honor 4C smartphones with software CHM-UL00C00 before CHM-UL00C00B564, CHM-TL00C01 before CHM-TL00C01B564, and CHM-TL00C00 before CHM-TL00HC00B564 allows attackers to cause a denial of service (system crash) or gain privileges via a crafted application, a different vulnerability than CVE-2016-6180, CVE-2016-6181, CVE-2016-6183, and CVE-2016-6184.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://www.huawei.com/en/psirt/security-advisories/huawei-sa-20160716-01-smartphone-en",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160707)",
+	"id": "CVE-2016-6183",
+	"description": "The Camera driver in Huawei Honor 4C smartphones with software CHM-UL00C00 before CHM-UL00C00B564, CHM-TL00C01 before CHM-TL00C01B564, and CHM-TL00C00 before CHM-TL00HC00B564 allows attackers to cause a denial of service (system crash) or gain privileges via a crafted application, a different vulnerability than CVE-2016-6180, CVE-2016-6181, CVE-2016-6182, and CVE-2016-6184.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://www.huawei.com/en/psirt/security-advisories/huawei-sa-20160716-01-smartphone-en",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160707)",
+	"id": "CVE-2016-6184",
+	"description": "The Camera driver in Huawei Honor 4C smartphones with software CHM-UL00C00 before CHM-UL00C00B564, CHM-TL00C01 before CHM-TL00C01B564, and CHM-TL00C00 before CHM-TL00HC00B564 allows attackers to cause a denial of service (system crash) or gain privileges via a crafted application, a different vulnerability than CVE-2016-6180, CVE-2016-6181, CVE-2016-6182, and CVE-2016-6183.",
+	"status": "Candidate"
+}, {
+	"reference": "BUGTRAQ:20160730 Elevation of Privilege Vulnerability in MediaTek Driver ( CVE-2016-6492)   |   URL:http://www.securityfocus.com/archive/1/archive/1/539058/100/0/threaded   |   MISC:http://packetstormsecurity.com/files/138113/MediaTek-Driver-Privilege-Escalation.html   |   CONFIRM:https://source.android.com/security/bulletin/2016-12-01.html   |   BID:92207   |   URL:http://www.securityfocus.com/bid/92207",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160728)",
+	"id": "CVE-2016-6492",
+	"description": "The MT6573FDVT_SetRegHW function in camera_fdvt.c in the MediaTek driver for Linux allows local users to gain privileges via a crafted application that makes an MT6573FDVTIOC_T_SET_FDCONF_CMD IOCTL call.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:http://source.android.com/security/bulletin/2016-10-01.html   |   BID:93321   |   URL:http://www.securityfocus.com/bid/93321",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160811)",
+	"id": "CVE-2016-6673",
+	"description": "The NVIDIA camera driver in Android before 2016-10-05 on Nexus 9 devices allows attackers to gain privileges via a crafted application, aka internal bug 30204201.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:https://source.android.com/security/bulletin/2016-11-01.html   |   BID:94142   |   URL:http://www.securityfocus.com/bid/94142",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160811)",
+	"id": "CVE-2016-6739",
+	"description": "An elevation of privilege vulnerability in the Qualcomm camera driver in Android before 2016-11-05 could enable a local malicious application to execute arbitrary code within the context of the kernel. This issue is rated as High because it first requires compromising a privileged process. Android ID: A-30074605. References: Qualcomm QC-CR#1049826.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:https://source.android.com/security/bulletin/2016-11-01.html   |   BID:94142   |   URL:http://www.securityfocus.com/bid/94142",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160811)",
+	"id": "CVE-2016-6740",
+	"description": "An elevation of privilege vulnerability in the Qualcomm camera driver in Android before 2016-11-05 could enable a local malicious application to execute arbitrary code within the context of the kernel. This issue is rated as High because it first requires compromising a privileged process. Android ID: A-30143904. References: Qualcomm QC-CR#1056307.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:https://source.android.com/security/bulletin/2016-11-01.html   |   BID:94142   |   URL:http://www.securityfocus.com/bid/94142",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160811)",
+	"id": "CVE-2016-6741",
+	"description": "An elevation of privilege vulnerability in the Qualcomm camera driver in Android before 2016-11-05 could enable a local malicious application to execute arbitrary code within the context of the kernel. This issue is rated as High because it first requires compromising a privileged process. Android ID: A-30559423. References: Qualcomm QC-CR#1060554.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:https://source.android.com/security/bulletin/2016-12-01.html   |   BID:94676   |   URL:http://www.securityfocus.com/bid/94676",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160811)",
+	"id": "CVE-2016-6755",
+	"description": "An elevation of privilege vulnerability in the Qualcomm camera driver could enable a local malicious application to execute arbitrary code within the context of the kernel. This issue is rated as High because it first requires compromising a privileged process. Product: Android. Versions: Kernel-3.10, Kernel-3.18. Android ID: A-30740545. References: QC-CR#1065916.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:https://source.android.com/security/bulletin/2016-12-01.html   |   BID:94693   |   URL:http://www.securityfocus.com/bid/94693",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160811)",
+	"id": "CVE-2016-6756",
+	"description": "An information disclosure vulnerability in Qualcomm components including the camera driver and video driver could enable a local malicious application to access data outside of its permission levels. This issue is rated as Moderate because it first requires compromising a privileged process. Product: Android. Versions: Kernel-3.10, Kernel-3.18. Android ID: A-29464815. References: QC-CR#1042068.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:https://source.android.com/security/bulletin/2016-12-01.html   |   BID:94693   |   URL:http://www.securityfocus.com/bid/94693",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20160811)",
+	"id": "CVE-2016-6757",
+	"description": "An information disclosure vulnerability in Qualcomm components including the camera driver and video driver could enable a local malicious application to access data outside of its permission levels. This issue is rated as Moderate because it first requires compromising a privileged process. Product: Android. Versions: Kernel-3.10, Kernel-3.18. Android ID: A-30148242. References: QC-CR#1052821.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:https://source.android.com/security/bulletin/2016-12-01.html   |   BID:94710   |   URL:http://www.securityfocus.com/bid/94710",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20161005)",
+	"id": "CVE-2016-8395",
+	"description": "A denial of service vulnerability in the NVIDIA camera driver could enable an attacker to cause a local permanent denial of service, which may require reflashing the operating system to repair the device. This issue is rated as High due to the possibility of local permanent denial of service. Product: Android. Versions: Kernel-3.10. Android ID: A-31403040. References: N-CVE-2016-8395.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:https://source.android.com/security/bulletin/2017-01-01.html   |   BID:95238   |   URL:http://www.securityfocus.com/bid/95238",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20161005)",
+	"id": "CVE-2016-8412",
+	"description": "An elevation of privilege vulnerability in the Qualcomm camera could enable a local malicious application to execute arbitrary code within the context of the kernel. This issue is rated as High because it first requires compromising a privileged process. Product: Android. Versions: Kernel-3.10, Kernel-3.18. Android ID: A-31225246. References: QC-CR#1071891.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:https://source.android.com/security/bulletin/2017-01-01.html   |   BID:95238   |   URL:http://www.securityfocus.com/bid/95238",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20161005)",
+	"id": "CVE-2016-8444",
+	"description": "An elevation of privilege vulnerability in the Qualcomm camera could enable a local malicious application to execute arbitrary code within the context of the kernel. This issue is rated as High because it first requires compromising a privileged process. Product: Android. Versions: Kernel-3.10. Android ID: A-31243641. References: QC-CR#1074310.",
+	"status": "Candidate"
+}, {
+	"reference": "CONFIRM:https://source.android.com/security/bulletin/2017-01-01.html   |   BID:95246   |   URL:http://www.securityfocus.com/bid/95246",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20161005)",
+	"id": "CVE-2016-8469",
+	"description": "An information disclosure vulnerability in the camera driver could enable a local malicious application to access data outside of its permission levels. This issue is rated as Moderate because it first requires compromising a privileged process. Product: Android. Versions: Kernel-3.10. Android ID: A-31351206. References: N-CVE-2016-8469.",
+	"status": "Candidate"
+}, {
+	"reference": "MISC:https://ics-cert.us-cert.gov/advisories/ICSA-16-322-01   |   CONFIRM:https://www.siemens.com/cert/pool/cert/siemens_security_advisory_ssa-284765.pdf   |   BID:94392   |   URL:http://www.securityfocus.com/bid/94392",
+	"votes": "None (candidate not yet proposed)",
+	"comments": null,
+	"phase": "Assigned (20161103)",
+	"id": "CVE-2016-9155",
+	"description": "The following SIEMENS branded IP Camera Models CCMW3025, CVMW3025-IR, CFMW3025 prior to version 1.41_SP18_S1; CCPW3025, CCPW5025 prior to version 0.1.73_S1; CCMD3025-DN18 prior to version v1.394_S1; CCID1445-DN18, CCID1445-DN28, CCID1145-DN36, CFIS1425, CCIS1425, CFMS2025, CCMS2025, CVMS2025-IR, CFMW1025, CCMW1025 prior to version v2635_SP1 could allow an attacker with network access to the web server to obtain administrative credentials under certain circumstances.",
+	"status": "Candidate"
+}]

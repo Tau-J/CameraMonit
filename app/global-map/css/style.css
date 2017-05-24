@@ -1,0 +1,125 @@
+.boundary {
+    fill: none;
+    /*stroke: #fff; by JT*/
+    stroke: #73FF5C;
+    stroke-width: 1px;
+    /*stroke-dasharray: 3px; !*by JT 虚线国境线 被轮廓覆盖了*!*/
+}
+
+div#tooltip {
+    z-index: 5;
+    position: absolute;
+    text-align: center;
+    padding: 5px;
+    font: 24px sans-serif;
+    color: #17BC9C;
+    background: rgba(0,0,0,0.4);
+    border: 0px;
+    /*border-radius: 8px;*/
+    pointer-events: none;
+    /*box-shadow: 2px 2px 3px darkgrey;*/
+}
+
+.tile {
+    background-color: rgba(0,0,0,0.4);
+    position: relative;
+    margin-bottom: 15px;
+    color: #FFF;
+}
+.tile-title {
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    padding: 7px 10px 7px;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #17BC9C;
+}
+.tile-button {
+    background-color: rgba(10,10,10,0.8);
+    width: 100%;
+    padding: 7px 10px 7px;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #F00000;
+}
+/* Tables */
+.table > thead > tr > th {
+    font-weight: normal;
+    padding: 5px 8px 6px;
+    text-transform: uppercase;
+    border-bottom: 0;
+}
+
+.table td, .table th {
+    border-color: rgba(255,255,255,0.05) !important;
+}
+
+.table-condensed > thead > tr > th {
+    padding: 3px 5px 5px;
+}
+
+.table-bordered, .table-responsive {
+    border: 0;
+}
+
+
+
+.table-bordered > tbody > tr > td,
+.table-bordered > thead > tr > th {
+    border-bottom: 0;
+    border-left: 0;
+}
+
+.table-bordered > tbody > tr > td:last-child,
+.table-bordered > thead > tr > th:last-child {
+    border-right: 0;
+}
+
+.table-hover > tbody > tr:hover > td,
+.table-hover > tbody > tr:hover > th,
+.table-striped > tbody > tr:nth-child(odd) > td, .table-striped > tbody > tr:nth-child(odd) > th {
+    background: rgba(0,0,0,0.4);
+}
+
+.fa-button:hover i {
+    color: #FFD600;
+    cursor: pointer;
+}
+.fa-button i{
+    font-size: 26px;
+    line-height: 100%;
+}
+
+/*下拉选框*/
+.angucomplete-dropdown {
+    overflow-y: auto;
+    max-height: 290px;
+    border-color: #17BC9C;
+    border-width: 1px;
+    border-style: solid;
+    width: 200px;
+    padding: 6px;
+    cursor: pointer;
+    z-index: 9999;
+    margin-top: 40px;
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    text-align: left;
+    padding-left: 20px;
+}
+.angucomplete-description {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.highlight {
+    color: #ff0000;
+}
+.angucomplete-selected-row {
+    background-color: rgba(0,0,0,0.6);
+    color: lightblue;
+    padding-left: 6px;
+}

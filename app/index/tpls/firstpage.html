@@ -1,0 +1,213 @@
+<style>
+    canvas {
+        background:
+                linear-gradient(
+                        hsl(200, 50%, 80%) 0%,
+                        hsl(200, 30%, 95%) 75%)
+    ;
+        display: block;
+    }
+
+    #firstpage {
+        background: url('/app/index/images/skyline-texture.png');
+        height: 100%;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+</style>
+<div id="firstpage" ng-controller="MyCtrl">
+
+    <div>
+        <div class="box">
+            <div class="box__row">
+                <div data-cell='1' class="box__row-cell" id="cell1">
+                    <!--<div class="box__row-cell-info">-->
+                        <!--<p class='box__row-cell-info-ep'>EP <span>04</span></p>-->
+                    <!--</div>-->
+                    <br><br>
+                    <div class="box__row-cell-info">
+                        <p class='box__row-cell-info-title'>全球感知</p>
+                    </div>
+                    <!--<div class="box__row-cell-info">-->
+                        <!--<div class="box__row-cell-info-sign"></div>-->
+                    <!--</div>-->
+                    <!--<div class="box__row-cell-info box__row-cell-info&#45;&#45;time">-->
+                        <!--<p>43 minutes</p>-->
+                    <!--</div>-->
+                    <div class="box__row-cell-info--full">
+                        <h1 class="box__row-cell-info--full-heading">全球感知</h1>
+                        <!--<p class="box__row-cell-info&#45;&#45;full-par">-->
+                            <!--全球公网ip中网络摄像头分布画像-->
+                        <!--</p>-->
+
+                    </div>
+                </div>
+
+
+                <div data-cell='2' class="box__row-cell" id="cell2">
+                    <!--<div class="box__row-cell-info">-->
+                        <!--<p class=' box__row-cell-info-ep'>EP <span>03</span></p>-->
+                    <!--</div>-->
+                    <br><br>
+                    <div class="box__row-cell-info">
+                        <p class=' box__row-cell-info-title'>设备检测</p>
+                    </div>
+                    <!--<div class="box__row-cell-info">-->
+                        <!--<div class="box__row-cell-info-sign"></div>-->
+                    <!--</div>-->
+                    <!--<div class="box__row-cell-info box__row-cell-info&#45;&#45;time">-->
+                        <!--<p>44 minutes</p>-->
+                    <!--</div>-->
+                    <div class="box__row-cell-info--full">
+                        <h1 class="box__row-cell-info--full-heading">设备检测</h1>
+                        <!--<p class="box__row-cell-info&#45;&#45;full-par">-->
+                            <!--针对用户的单个ip进行分析检测，生成检测报告-->
+                        <!--</p>-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="box__row">
+                <div data-cell='3' class="box__row-cell" id="cell3">
+                    <!--<div class="box__row-cell-info">-->
+                        <!--<p class=' box__row-cell-info-ep'>EP <span>02</span></p>-->
+                    <!--</div>-->
+                    <br><br>
+                    <div class="box__row-cell-info">
+                        <p class=' box__row-cell-info-title'>威胁记录</p>
+                    </div>
+                    <!--<div class="box__row-cell-info">-->
+                        <!--<div class="box__row-cell-info-sign"></div>-->
+                    <!--</div>-->
+                    <!--<div class="box__row-cell-info box__row-cell-info&#45;&#45;time">-->
+                        <!--<p>41 minutes</p>-->
+                    <!--</div>-->
+                    <div class="box__row-cell-info--full">
+                        <h1 class="box__row-cell-info--full-heading">威胁记录</h1>
+                        <!--<p class="box__row-cell-info&#45;&#45;full-par">-->
+                            <!--对本平台检测到的存在安全隐患的设备进行公示-->
+                        <!--</p>-->
+                    </div>
+                </div>
+
+                <div data-cell='4' class="box__row-cell" id="cell4">
+                    <!--<div class="box__row-cell-info">-->
+                        <!--<p class=' box__row-cell-info-ep'>EP <span>01</span></p>-->
+                    <!--</div>-->
+                    <br><br>
+                    <div class="box__row-cell-info">
+                        <p class=' box__row-cell-info-title'>漏洞查询</p>
+                    </div>
+                    <!--<div class="box__row-cell-info">-->
+                        <!--<div class="box__row-cell-info-sign"></div>-->
+                    <!--</div>-->
+                    <!--<div class="box__row-cell-info box__row-cell-info&#45;&#45;time">-->
+                        <!--<p >42 minutes</p>-->
+                    <!--</div>-->
+                    <div class="box__row-cell-info--full">
+                        <h1 class="box__row-cell-info--full-heading">漏洞查询</h1>
+                        <!--<p class="box__row-cell-info&#45;&#45;full-par">-->
+                            <!--查询已知的漏洞详情-->
+                        <!--</p>-->
+                    </div>
+                </div>
+            </div>
+
+            <div data-content='1' class="box__content">
+                <div class="box__content-wrapper">
+                    <div class="box__content-inner">
+                        <div class="box__content-text">
+                            <h2 class='box__content-text-heading'></h2>
+                            <button ng-click="jumpToUrl('#/global-map')" class="firstBtn">进入应用</button>
+                            
+                            <h2 class='box__content-text-heading'>简介</h2>
+                            <p class='box__content-text-par'>
+                                全球公网ip中网络摄像头分布画像
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div data-content='2' class="box__content">
+                <div class="box__content-wrapper">
+                    <div class="box__content-inner">
+                        <div class="box__content-text">
+                            <h2 class='box__content-text-heading'></h2>
+                            <button ng-click="jumpToUrl('#/device-detect')" class="firstBtn">进入应用</button>
+
+                            <h2 class='box__content-text-heading'>简介</h2>
+                            <p class='box__content-text-par'>
+                                针对用户的单个ip进行分析检测，生成检测报告
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div data-content='3' class="box__content">
+                <div class="box__content-wrapper">
+                    <div class="box__content-inner">
+                        <div class="box__content-text">
+                            <h2 class='box__content-text-heading'></h2>
+                            <button ng-click="jumpToUrl('#/insecure-devices')" class="firstBtn">进入应用</button>
+
+                            <h2 class='box__content-text-heading'>简介</h2>
+                            <p class='box__content-text-par'>
+                                对本平台检测到的存在安全隐患的设备进行公示
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div data-content='4' class="box__content">
+                <div class="box__content-wrapper">
+                    <div class="box__content-inner">
+                        <div class="box__content-text">
+                            <h2 class='box__content-text-heading'></h2>
+                            <button ng-click="jumpToUrl('#/vuls')" class="firstBtn">进入应用</button>
+
+                            <h2 class='box__content-text-heading'>简介</h2>
+                            <p class='box__content-text-par'>
+                                访问平台信息库进行查询
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box__close">
+                <span></span><br>
+                <span></span>
+                <span></span><br>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!--<div class="box__episodes">EPISODES</div>-->
+            <div class='box__smokebg'>
+
+            </div>
+            <div class='box__title'>
+                <h1 class='box__title-heading'>CAMERA<br>
+                    <span>MONIT</span><br></h1>
+                <h3 id="chinesename">全球网络摄像头安全监测平台</h3>
+                <!--<p class='box__title-par'>egestas sapien</p>-->
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="/app/index/js/mountains.js"></script>
+<script src="/app/index/js/coollayout.js"></script>
+<script>
+    $('.box').backgroundMove();
+</script>
+<!--<script type="text/javascript">-->
+    <!--document.getElementById("myButton").onclick = function () {-->
+        <!--location.href = "#/global-map";-->
+    <!--};-->
+<!--</script>-->

@@ -1,0 +1,81 @@
+<div>
+    <div class="col-md-8">
+        <div class="mysearch tile-title clearfix">
+            <button ng-click="searchAction()" title="搜索"></button>
+            <input ng-model="wanted" placeholder="请输入关键词（ip、phase）">
+        </div>
+        <table class="table">
+            <tr>
+                <th>CVE-ID</th>
+                <th>phase</th>
+            </tr>
+            <tr ng-repeat="vul in vuls">
+                <td id="td-name" data-toggle="modal" data-target="#myModal" ng-click="setVul(vul)" title="{{vul.id}}">
+                    {{vul.id}}
+                </td>
+                <td style="color:#FFF">{{vul.phase}}</td>
+                <script>
+                    $(function () {
+                        $("[data-toggle='popover']").popover();
+                    });
+                </script>
+            </tr>
+        </table>
+        <div class="pages">
+            <button class="page page-pre" ng-click="setPage(currentPage-1)">上一页</button>
+            <span ng-repeat="page in pages">
+                <a class="page page-now" ng-class="{active:page==currentPage}" ng-click="setPage(page)">{{page}} </a>
+            </span>
+            <button class="page page-next" ng-click="setPage(currentPage+1)">下一页</button>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="tile">
+            <div class="tile-title">
+                漏洞发布时间
+            </div>
+            <vuls-year></vuls-year>
+        </div>
+
+
+        <!--<div class="tile">-->
+            <!--<div class="tile-title">-->
+                <!--漏洞危害等级-->
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+    <!-- 漏洞弹窗说明 -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog loophole-dialog" role="document">
+            <div class="modal-content loophole-content">
+                <div class="modal-header loophole-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel"><h3>漏洞详情</h3></h4>
+                </div>
+                <div class="modal-body loophole-body">
+                    <dl class="clearfix">
+                        <dt>CVE-ID：</dt>
+                        <dd>{{modelVul.id}}</dd>
+                    </dl>
+                    <dl class="clearfix">
+                        <dt>phase：</dt>
+                        <dd>{{modelVul.phase}}</dd>
+                    </dl>
+                    <dl class="clearfix">
+                        <dt>votes：</dt>
+                        <dd>{{modelVul.votes}}</dd>
+                    </dl>
+                    <dl class="clearfix">
+                        <dt>status：</dt>
+                        <dd>{{modelVul.status}}</dd>
+                    </dl>
+                    <dl class="clearfix">
+                        <dt>description：</dt>
+                        <dd>{{modelVul.description}}</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

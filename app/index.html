@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en" ng-app="routerApp">
+
+<head>
+  <meta charset="utf-8">
+  <title>Camera Monit</title>
+
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="/bower_components/angular-ui-grid/ui-grid.css">
+  <link rel="stylesheet" href="/bower_components/components-font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="/app/index/css/style.css">
+  <link rel="stylesheet" href="/app/index/css/nav.css">
+  <link rel="stylesheet" href="/app/index/css/bootstrap.css">
+  <link rel="stylesheet" href="/app/index/css/coollayout.css">
+
+  <script src="/app/index/js/jquery-1.11.1.min.js"></script>
+  <script src="/app/index/js/jquery.easydropdown.js"></script>
+  <!--<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>-->
+
+  <script src="/node_modules/queue.min.js"></script>
+
+  <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="/bower_components/angular/angular.js"></script>
+  <script src="/node_modules/angular-resource/angular-resource.js"></script>
+  <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <!--dagre-->
+  <script src="/bower_components/lodash/lodash.js"></script>
+  <script src="/bower_components/graphlib/dist/graphlib.core.js"></script>
+  <script src="/bower_components/dagre/dist/dagre.core.js"></script>
+
+  <!--leaflet-->
+  <link rel="stylesheet" href="/node_modules/leaflet/dist/leaflet.css"/>
+  <link rel="stylesheet" href="/node_modules/leaflet.markercluster/dist/MarkerCluster.css"/>
+  <link rel="stylesheet" href="/node_modules/leaflet.markercluster/dist/MarkerCluster.Default.css"/>
+  <script src="/node_modules/leaflet/dist/leaflet.js"></script>
+  <script src="/node_modules/leaflet.markercluster/dist/leaflet.markercluster-src.js"></script>
+
+  <script src="/bower_components/angular-animate/angular-animate.min.js"></script>
+  <script src="/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="/bower_components/angular-ui-grid/ui-grid.min.js"></script>
+
+  <!--d3 & topojson-->
+  <script src="/node_modules/d3/d3.js"></script>
+  <!--<script src="/node_modules/d3/d3.geo.js"></script>-->
+  <script src="/node_modules/topojson/topojson.js"></script>
+
+  <!--angucomplete-alt-->
+  <script src="/bower_components/angucomplete-alt-master/dist/angucomplete-alt.min.js"></script>
+
+  <!--echarts-->
+  <script src="/node_modules/echarts/dist/echarts.min.js"></script>
+
+  <!--sketch-->
+  <script src="/node_modules/sketch.js-master/js/sketch.min.js"></script>
+
+  <!--首页-->
+  <script src="/app/index/js/modules.js"></script>
+  <script src="/app/index/js/directives.js"></script>
+  <script src="/app/index/js/controller.js"></script>
+
+  <!--不安全设备列表-->
+  <script src="/app/insecure-devices/js/modules.js"></script>
+  <script src="/app/insecure-devices/js/directives.js"></script>
+  <script src='/app/insecure-devices/js/TweenMax.min.js'></script>
+
+  <!--地图画像-->
+  <link rel="stylesheet" href="global-map/css/style.css"/>
+  <script src="/app/global-map/js/modules.js"></script>
+  <script src="/app/global-map/js/directives.js"></script>
+  <script src="/app/global-map/js/geojson-utils.js"></script>
+  <!--<script src="/app/global-map/js/controller.js"></script>-->
+
+  <!--漏洞库-->
+  <script src="/app/vuls/js/modules.js"></script>
+  <script src="/app/vuls/js/directives.js"></script>
+
+  <!--设备检测-->
+  <link rel="stylesheet" href="/app/device-detect/css/coolbackground.css"/>
+  <script src="/app/device-detect/js/EasePack.min.js"></script>
+  <script src="/app/device-detect/js/rAF.js"></script>
+  <script src="/app/device-detect/js/TweenLite.min.js"></script>
+  <script src="/app/device-detect/js/modules.js"></script>
+  <script src="/app/device-detect/js/directives.js"></script>
+
+  <script src="app.js"></script>
+
+</head>
+
+<body >
+
+<div ui-view class="primary-main" >
+</div>
+
+</body>
+</html>

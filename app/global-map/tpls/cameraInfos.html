@@ -1,0 +1,28 @@
+<div id="camerasInfo">
+    <table class="table">
+        <thead>
+        <tr>
+            <th width="20%" style="text-align: center">No.</th>
+            <th width="80%" style="text-align: center">IP</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="cameraInfo in cameraInfos">
+            <td style="text-align: center">{{getPageNum(cameraInfo)}}</td>
+            <td data-toggle="modal" data-target="#myModal" ng-click="setInfo(cameraInfo)" style="text-align: center"
+                onmouseover="this.style.color='#FFD600'; this.style.cursor='pointer'"  onmouseout="this.style.color='#FFF'">
+                {{cameraInfo.ip}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="fa-button" ng-click="setPage(currentPage-1)"><span><i class="fa fa-angle-left"></i></span></span>
+            </td>
+            <td>
+                <span class="fa-button" ng-click="setPage(currentPage+1)"><span><i class="fa fa-angle-right"></i></span></span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+</div>

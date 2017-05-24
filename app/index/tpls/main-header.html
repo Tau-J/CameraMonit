@@ -1,0 +1,33 @@
+<div class="header" id="headbanner">
+        <div class="container">
+            <div class="logo">
+                <a href="#/index"><img src="/app/index/images/logo2.png" ></a>
+            </div>
+
+            <div class="banner-top">
+                <ul class="nav banner-nav">
+                    <li class="dropdown1" id="home"><a href="#/index" ng-click="setActive(1)">首页</a></li>
+                    <li class="dropdown1" id="global"><a href="#/global-map" ng-click="setActive(3)">全球感知</a>
+                    </li>
+                    <li class="dropdown1" id="detect"><a href="#/device-detect" ng-click="setActive(2)">设备检测</a>
+                    </li>
+                    <!--<li class="dropdown1" id="public"><a class="down-scroll" href="" >舆情监控</a>-->
+                        <!--<ul class="dropdown2">-->
+                            <!--<li><a href="about.html" ng-click="setActive(4)">微博</a></li>-->
+                            <!--<li><a href="support.html" ng-click="setActive(4)">论坛</a></li>-->
+                        <!--</ul>-->
+                    <!--</li>-->
+                    <li class="dropdown1" id="insecure"><a href="#/insecure-devices" ng-click="setActive(6)">威胁记录</a></li>
+                    <li class="dropdown1" id="vuls"><a href="#/vuls" ng-click="setActive(5)" >漏洞查询</a></li>
+                </ul>
+                <script>
+                    $("span.menu").click(function(){
+                        $(" ul.nav").slideToggle("slow" , function(){
+                        });
+                    });
+                </script>
+            </div>
+            <div class="clearfix"> </div>
+
+        </div>
+</div>

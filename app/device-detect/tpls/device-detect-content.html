@@ -1,0 +1,58 @@
+<div>
+    <div id="large-header" class="large-header">
+        <div class="main-title" style="width: 100%">
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-8">
+                <div class="tile" style="height: 650px;overflow-y: auto">
+                    <div class="mysearch tile-title clearfix">
+                        <button ng-click="checkIP()" title="搜索" ></button>
+                        <input ng-model="wanted" placeholder="请输入需要检测的设备IP与端口">
+                    </div>
+                    <div class="backInfo-table-title">基本信息</div>
+                    <table class="table" style="">
+                        <tr ng-repeat="devInfo1 in devInfos1">
+                            <td class="backInfo-title">{{devInfo1.a}}:</td>
+                            <td>{{devInfo1.b}}</td>
+                        </tr>
+                    </table>
+                    <div class="backInfo-table-title">常见漏洞检测</div>
+                    <table class="table">
+                        <tr ng-repeat="devInfo2 in devInfos2">
+                            <td class="backInfo-title">{{devInfo2.a}}:</td>
+                            <td>{{devInfo2.b}}</td>
+                        </tr>
+                    </table>
+                    <div class="backInfo-table-title">口令加密</div>
+                    <table class="table">
+                        <tr ng-repeat="devInfo3 in devInfos3">
+                            <td class="backInfo-title">{{devInfo3.a}}:</td>
+                            <td>{{devInfo3.b}}</td>
+                        </tr>
+                    </table>
+                    <div class="backInfo-table-title">漏洞关联</div>
+                    <table class="table">
+                        <tr ng-repeat="devInfo4 in devInfos4">
+                            <td class="backInfo-title">{{devInfo4.a}}:</td>
+                            <td>{{devInfo4.b}}</td>
+                        </tr>
+                    </table>
+                    <div class="backInfo-table-title">威胁记录</div>
+                    <table class="table">
+                        <tr ng-repeat="devInfo5 in devInfos5">
+                            <td class="backInfo-title">{{devInfo5.a}}:</td>
+                            <td>{{devInfo5.b}}</td>
+                        </tr>
+                    </table>
+                    <div ng-show="myLoading">Loading...</div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+
+        <canvas id="demo-canvas"></canvas>
+    </div>
+
+
+</div>

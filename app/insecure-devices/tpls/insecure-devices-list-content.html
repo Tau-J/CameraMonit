@@ -1,0 +1,91 @@
+<div>
+    <div class="col-md-6">
+        <div class="tile" style="height: 100%">
+            <insecure-map></insecure-map>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="tile">
+            <div class="mysearch tile-title clearfix">
+                <button ng-click="searchAction()" title="搜索" ></button>
+                <input ng-model="wanted" placeholder="请输入关键词（ip地址、端口、协议）">
+            </div>
+            <table class="table">
+                <tr>
+                    <th>威胁IP</th>
+                    <th>端口</th>
+                    <th>协议</th>
+                    <th>发现日期</th>
+                    <th>发现时间</th>
+                </tr>
+                <tr ng-repeat="dev in devs">
+                    <td id="td-name" data-toggle="modal" data-target="#myModal" ng-click="setDev(dev)" title="{{dev.sourceIP}}">
+                        {{dev.sourceIP}}
+                    </td>
+                    <td>{{dev.sourcePort}}</td>
+                    <td>{{dev.protocol}}</td>
+                    <script>
+                        $(function () {
+                            $("[data-toggle='popover']").popover();
+                        });
+                    </script>
+                    <td>{{dev.date}}</td>
+                    <td>{{dev.time}}</td>
+                </tr>
+            </table>
+            <div class="pages">
+                <button class="page page-pre" ng-click="setPage(currentPage-1)">上一页</button>
+            <span ng-repeat="page in pages">
+                <a class="page page-now" ng-class="{active:page==currentPage}" ng-click="setPage(page)">{{page}} </a>
+            </span>
+                <button class="page page-next" ng-click="setPage(currentPage+1)">下一页</button>
+            </div>
+        </div>
+    </div>
+    <!-- 弹窗说明 -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog loophole-dialog" role="document">
+            <div class="modal-content loophole-content">
+                <div class="modal-header loophole-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel"><h3>威胁记录详情</h3></h4>
+                </div>
+                <div class="modal-body loophole-body">
+                    <dl class="clearfix">
+                        <dt>威胁IP：</dt>
+                        <dd>{{modelVul.sourceIP}}</dd>
+                    </dl>
+                    <dl class="clearfix">
+                        <dt>攻击端口：</dt>
+                        <dd>{{modelVul.sourcePort}}</dd>
+                    </dl>
+                    <dl class="clearfix">
+                        <dt>目的IP：</dt>
+                        <dd>{{modelVul.destiIP}}</dd>
+                    </dl>
+                    <dl class="clearfix">
+                        <dt>目的端口：</dt>
+                        <dd>{{modelVul.destPort}}</dd>
+                    </dl>
+                    <dl class="clearfix">
+                        <dt>协议：</dt>
+                        <dd>{{modelVul.protocol}}</dd>
+                    </dl>
+                    <dl class="clearfix">
+                        <dt>request：</dt>
+                        <dd>{{modelVul.request}}</dd>
+                    </dl>
+                    <dl class="clearfix">
+                        <dt>发现日期：</dt>
+                        <dd>{{modelVul.date}}</dd>
+                    </dl>
+                    <dl class="clearfix">
+                        <dt>发现时间：</dt>
+                        <dd>{{modelVul.time}}</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

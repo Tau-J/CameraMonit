@@ -1,0 +1,583 @@
+{
+	"Paraguay": [8, {
+		"Departamento del Alto Parana": [7, "-25.3667", "-54.75"]
+	}],
+	"Mozambique": [1, {}],
+	"Malaysia": [7, {
+		"Pulau Pinang": [1, "5.3991", "100.3638"],
+		"Kuala Lumpur": [2, "3.1667", "101.7"]
+	}],
+	"United States": [11707, {
+		"Minnesota": [3, "46.5617", "-95.3837"],
+		"Washington, D.C.": [1, "38.9068", "-77.0427"],
+		"Louisiana": [2, "30.2143", "-90.9402"],
+		"Mississippi": [1, "32.4326", "-90.1556"],
+		"New Jersey": [1, "40.7209", "-74.0468"],
+		"Kentucky": [1, "38.999", "-84.6266"],
+		"Arkansas": [1, "36.1013", "-94.27"],
+		"Tennessee": [1, "35.2406", "-89.8436"],
+		"New York": [3, "42.8233", "-73.9202"],
+		"Maine": [2, "44.8635", "-68.8402"],
+		"California": [1, "38.7632", "-121.2795"],
+		"South Dakota": [1, "44.0805", "-103.231"],
+		"Pennsylvania": [5, "40.0548", "-75.4083"],
+		"Nevada": [1, "35.9887", "-115.1134"],
+		"Virginia": [1, "37.7563", "-77.4888"],
+		"Delaware": [27, "39.5645", "-75.597"],
+		"Connecticut": [1, "41.6856", "-72.7312"],
+		"Missouri": [2, "39.394", "-94.5743"],
+		"Alabama": [1, "32.471", "-85.0008"],
+		"North Carolina": [2, "36.1207", "-79.8946"],
+		"Ohio": [2, "41.693", "-83.7273"],
+		"North Dakota": [1, "46.8772", "-96.7898"],
+		"Iowa": [1, "42.0488", "-91.6875"],
+		"Colorado": [1, "39.7392", "-104.9847"],
+		"Texas": [40, "32.9299", "-96.8353"],
+		"Oklahoma": [2, "35.9221", "-95.8776"],
+		"Illinois": [10, "42.3369", "-90.0406"],
+		"Indiana": [1, "38.2813", "-85.8401"],
+		"Oregon": [1, "45.5234", "-122.6762"],
+		"Kansas": [36, "37.708", "-97.3155"],
+		"Washington": [1, "48.3647", "-119.2704"],
+		"Montana": [1, "47.5002", "-111.3008"],
+		"Rhode Island": [1, "41.824", "-71.4128"],
+		"Arizona": [1, "33.3703", "-112.5838"],
+		"Florida": [4, "26.3818", "-80.1046"],
+		"Nebraska": [1, "40.7644", "-99.0194"],
+		"West Virginia": [2, "39.5675", "-79.9363"],
+		"Wisconsin": [1, "43.0389", "-87.9065"],
+		"Vermont": [1, "44.4964", "-73.1836"],
+		"Georgia": [1, "34.0216", "-83.8351"],
+		"Utah": [4, "37.1041", "-113.5841"],
+		"Hawaii": [1, "21.5488", "-158.0298"],
+		"Idaho": [1, "43.4666", "-112.0341"],
+		"Massachusetts": [1, "42.3646", "-71.1028"],
+		"New Mexico": [1, "36.4146", "-105.5222"],
+		"South Carolina": [1, "34.5342", "-82.7167"],
+		"New Hampshire": [2, "42.8915", "-71.2787"],
+		"Michigan": [1, "42.4645", "-83.3763"],
+		"Wyoming": [1, "43.493", "-109.6436"],
+		"Alaska": [1, "63.7047", "-144.8966"],
+		"Maryland": [1, "39.2575", "-76.4951"]
+	}],
+	"South Africa": [72, {
+		"Province of the Western Cape": [2, "-33.9185", "18.4131"],
+		"Gauteng": [1, "-26.2167", "28.25"],
+		"KwaZulu-Natal": [1, "-29.6167", "30.3833"]
+	}],
+	"Liechtenstein": [1, {}],
+	"Croatia": [1, {}],
+	"Argentina": [61, {
+		"Provincia de Buenos Aires": [9, "-34.5309", "-58.5201"],
+		"Provincia de Entre Rios": [1, "-30.9546", "-58.7833"],
+		"Buenos Aires F.D.": [1, "-34.5875", "-58.6725"],
+		"Provincia de Cordoba": [1, "-31.0198", "-64.0652"]
+	}],
+	"Pakistan": [1, {}],
+	"Sweden": [142, {
+		"Stockholm": [1, "59.4667", "17.9"],
+		"V\u76f2stra G\u679ataland": [1, "57.6467", "11.9294"],
+		"Sk\u6c13ne": [1, "55.8667", "12.8333"],
+		"V\u76f2sternorrland": [1, "62.7", "16.8"]
+	}],
+	"Somalia": [3, {}],
+	"South Korea": [174, {
+		"Gyeonggi": [1, "37.4386", "127.1378"],
+		"Seoul": [1, "37.5985", "126.9783"]
+	}],
+	"Thailand": [4281, {
+		"Changwat Nakhon Sawan": [2, "15.7047", "100.1372"],
+		"Changwat Khon Kaen": [6, "16.4467", "102.833"],
+		"Changwat Lop Buri": [1, "14.7981", "100.654"],
+		"Changwat Chaiyaphum": [2, "15.8105", "102.0288"],
+		"Changwat Ubon Ratchathani": [1, "15.1932", "104.8628"],
+		"Changwat Phrae": [1, "18.1459", "100.141"],
+		"Changwat Buriram": [14, "14.9943", "103.1039"],
+		"Changwat Nakhon Pathom": [1, "13.8196", "100.0443"],
+		"Changwat Prachuap Khiri Khan": [3, "12.5307", "99.8809"],
+		"Changwat Rayong": [5, "12.6685", "101.2755"],
+		"Changwat Kamphaeng Phet": [1, "16.4834", "99.5215"],
+		"Changwat Chon Buri": [1, "13.3622", "100.9835"],
+		"Changwat Chachoengsao": [1, "13.6882", "101.0716"],
+		"Changwat Tak": [1, "16.8697", "99.129"],
+		"Changwat Kanchanaburi": [1, "14.0333", "99.5333"],
+		"Changwat Lamphun": [1, "18.5805", "99.0074"],
+		"Changwat Phitsanulok": [1, "16.8248", "100.2586"],
+		"Changwat Kalasin": [1, "16.4328", "103.5066"],
+		"Chiang Mai Province": [1, "18.7904", "98.9847"],
+		"Changwat Yala": [1, "6.5399", "101.2813"],
+		"Changwat Nonthaburi": [1, "13.8622", "100.5134"],
+		"Changwat Songkhla": [1, "7.1988", "100.5951"],
+		"Changwat Ratchaburi": [1, "13.5367", "99.8171"],
+		"Changwat Chumphon": [1, "10.5", "99.1667"],
+		"Changwat Surin": [1, "14.8818", "103.4936"],
+		"Bangkok": [1, "13.754", "100.5014"],
+		"Changwat Lampang": [2, "18.2923", "99.4928"],
+		"Changwat Phra Nakhon Si Ayutthaya": [2, "14.3517", "100.5774"],
+		"Changwat Udon Thani": [3, "17.4157", "102.7859"],
+		"Changwat Chiang Rai": [1, "19.9086", "99.8325"],
+		"Phuket": [3, "7.8333", "98.3833"],
+		"Changwat Nakhon Ratchasima": [4, "14.9716", "102.0825"],
+		"Changwat Loei": [1, "17.4905", "101.7275"],
+		"Changwat Pathum Thani": [2, "14.0647", "100.6458"]
+	}],
+	"Costa Rica": [15, {
+		"Provincia de Cartago": [5, "9.8533", "-83.9023"],
+		"Provincia de San Jose": [8, "9.9333", "-84.0833"]
+	}],
+	"Maldives": [1, {}],
+	"Macao": [1, {}],
+	"Denmark": [60, {
+		"Central Jutland": [1, "56.1367", "9.16"],
+		"Zealand": [1, "55.4411", "11.8094"],
+		"Capital Region": [1, "55.6358", "12.3626"]
+	}],
+	"Venezuela": [6, {
+		"Carabobo": [1, "10.1806", "-68.0039"]
+	}],
+	"Belgium": [76, {
+		"Li\u732bge Province": [1, "50.6333", "5.5667"],
+		"West Flanders Province": [1, "50.75", "2.8167"],
+		"Hainaut Province": [1, "50.3833", "4.4"],
+		"Brussels Capital": [1, "50.8333", "4.3333"],
+		"East Flanders Province": [2, "51.0333", "3.55"],
+		"Flemish Brabant Province": [1, "50.8833", "4.4667"]
+	}],
+	"Bahrain": [2, {}],
+	"China": [992, {
+		"Fujian": [1, "26.0614", "119.3061"],
+		"Henan Sheng": [2, "34.6836", "113.5325"],
+		"Beijing Shi": [2, "39.9289", "116.3883"],
+		"Guangxi Zhuangzu Zizhiqu": [1, "22.8167", "108.3167"],
+		"Qinghai Sheng": [1, "36.6167", "101.7667"],
+		"Liaoning": [11, "41.7922", "123.4328"],
+		"Sichuan Sheng": [3, "30.6667", "104.0667"],
+		"Hebei": [14, "39.8897", "115.275"],
+		"Tianjin Shi": [1, "39.1422", "117.1767"],
+		"Jiangsu Sheng": [23, "32.0617", "118.7778"],
+		"Inner Mongolia": [1, "40.6522", "109.8222"],
+		"Anhui Sheng": [4, "31.8639", "117.2808"],
+		"Zhejiang Sheng": [5, "30.2936", "120.1614"],
+		"Shanghai Shi": [6, "31.0456", "121.3997"],
+		"Shandong Sheng": [16, "36.6683", "116.9972"],
+		"Hunan": [77, "26.9689", "109.7725"],
+		"Jilin Sheng": [1, "43.88", "125.3228"],
+		"Guangdong": [22, "23.1167", "113.25"],
+		"Hubei": [1, "30.5801", "114.2734"],
+		"Shaanxi": [1, "34.2583", "108.9286"]
+	}],
+	"Lithuania": [17, {
+		"Klaipedos Apskritis": [1, "55.7172", "21.1175"],
+		"Kauno Apskritis": [1, "54.9", "23.9"],
+		"Vilniaus Apskritis": [1, "54.6833", "25.3167"]
+	}],
+	"Kazakhstan": [3, {}],
+	"Trinidad and Tobago": [3, {}],
+	"Luxembourg": [5, {
+		"District de Luxembourg": [1, "49.6275", "6.0233"]
+	}],
+	"India": [49, {
+		"State of Gujarat": [1, "23.0333", "72.6167"],
+		"Rajasthan": [1, "26.9167", "75.8167"],
+		"Kashmir": [1, "33.5889", "74.1444"],
+		"NCT": [2, "28.6", "77.2"],
+		"State of Andhra Pradesh": [1, "17.7", "83.3"],
+		"Maharashtra": [4, "19.15", "72.9333"]
+	}],
+	"Mexico": [32, {
+		"Aguascalientes": [1, "21.8833", "-102.3"],
+		"Hidalgo": [1, "20.1167", "-98.7333"],
+		"Nuevo Le\u8d38n": [3, "25.6667", "-100.3167"],
+		"Chihuahua": [1, "31.7333", "-106.4833"],
+		"Michoac\u8c29n": [1, "19.6833", "-100.5667"],
+		"The Federal District": [2, "19.4342", "-99.1386"],
+		"Sonora": [1, "27.4833", "-109.9333"]
+	}],
+	"Germany": [3852, {
+		"Mecklenburg-Vorpommern": [1, "53.6833", "12.05"],
+		"North Rhine-Westphalia": [1, "51.3021", "7.3425"],
+		"Schleswig-Holstein": [1, "53.6599", "10.2223"],
+		"Land Berlin": [1, "52.5167", "13.4"],
+		"Saarland": [1, "49.3", "7.0667"],
+		"Rheinland-Pfalz": [1, "50.5167", "7.8167"],
+		"Hamburg": [1, "53.5453", "9.9953"],
+		"Baden-W\u7709rttemberg": [1, "47.8598", "9.001"],
+		"Bavaria": [1, "48.15", "11.5833"],
+		"Lower Saxony": [1, "53.65", "7.4167"],
+		"Hesse": [1, "50.1167", "8.6833"]
+	}],
+	"Oman": [1, {}],
+	"Egypt": [5, {}],
+	"Ghana": [3, {
+		"Greater Accra Region": [2, "5.55", "-0.2167"]
+	}],
+	"Uruguay": [2, {}],
+	"Hungary": [19, {
+		"Budapest fovaros": [1, "47.5", "19.0833"],
+		"Fej\u8305r": [1, "47.1955", "18.4096"],
+		"Tolna megye": [1, "46.3501", "18.7091"]
+	}],
+	"Finland": [7, {}],
+	"Japan": [2147, {
+		"Shizuoka Prefecture": [1, "34.9769", "138.3831"],
+		"Tokyo-to": [1, "35.685", "139.7514"],
+		"Chiba-ken": [2, "35.7167", "140.65"],
+		"Osaka-fu": [3, "34.6864", "135.52"],
+		"Kanagawa-ken": [1, "35.45", "139.65"],
+		"Hyogo-ken": [2, "34.8167", "135.4167"],
+		"Okinawa-ken": [1, "26.4233", "127.8214"],
+		"Wakayama-ken": [29, "33.9", "135.1667"]
+	}],
+	"Burkina Faso": [1, {}],
+	"Austria": [32, {
+		"Vienna": [1, "48.2", "16.3667"],
+		"Upper Austria": [1, "47.8833", "14.2167"]
+	}],
+	"Canada": [382, {
+		"Alberta": [3, "51.2733", "-113.9909"],
+		"Ontario": [1, "43.6667", "-79.4167"],
+		"Saskatchewan": [2, "49.1433", "-102.9987"],
+		"Quebec": [3, "47.3667", "-70.0333"],
+		"British Columbia": [1, "49.0798", "-123.0882"]
+	}],
+	"Taiwan": [427, {
+		"Changhua": [1, "24.08", "120.5425"],
+		"Hsinchu": [2, "24.8047", "120.9714"],
+		"Taipei": [8, "25.0392", "121.525"],
+		"Taiwan": [1, "22.6333", "120.35"]
+	}],
+	"United Kingdom": [1159, {
+		"Cambridgeshire": [1, "52.3333", "-0.1833"],
+		"West Sussex": [2, "50.9167", "-0.1333"],
+		"Portsmouth": [1, "50.7967", "-1.0833"],
+		"Derbyshire": [20, "53.1", "-1.3833"],
+		"County of Pembrokeshire": [3, "51.8017", "-4.9708"],
+		"Northamptonshire": [1, "52.4833", "-0.6667"],
+		"Renfrewshire": [1, "55.8333", "-4.4333"],
+		"Slough": [1, "51.5156", "-0.5865"],
+		"Wiltshire": [1, "51.2036", "-2.1808"],
+		"Cornwall": [1, "50.2122", "-5.2944"],
+		"East Sussex": [1, "50.8", "0.25"],
+		"Oxfordshire": [3, "51.75", "-1.25"],
+		"Hertfordshire": [2, "51.751", "-0.4299"],
+		"Wakefield": [1, "53.6833", "-1.3"],
+		"Manchester": [1, "53.5", "-2.2167"],
+		"East Yorkshire": [1, "53.7837", "-0.4198"],
+		"Nottinghamshire": [1, "53.0", "-1.1333"],
+		"Southend-on-Sea": [42, "51.5333", "0.7"],
+		"Brighton and Hove": [1, "50.8316", "-0.1341"],
+		"Sheffield": [1, "53.3695", "-1.5411"],
+		"Liverpool": [1, "53.4584", "-2.9616"],
+		"Glasgow City": [22, "55.8333", "-4.25"],
+		"Staffordshire": [1, "52.8", "-1.6167"],
+		"City of Kingston upon Hull": [1, "53.7507", "-0.3408"],
+		"Leicester": [1, "52.6333", "-1.1333"],
+		"Surrey": [1, "51.4387", "-0.5275"],
+		"West Berkshire": [1, "51.4", "-1.2667"],
+		"Coventry": [1, "52.4167", "-1.55"],
+		"Worcestershire": [1, "52.2667", "-2.15"],
+		"Bristol": [3, "51.45", "-2.5833"],
+		"York City": [1, "53.9382", "-1.1171"],
+		"Cheshire East": [2, "53.1", "-2.4333"],
+		"Windsor and Maidenhead": [2, "51.5167", "-0.7"],
+		"England": [3, "51.5142", "-0.0931"],
+		"Borough of Bolton": [1, "53.55", "-2.5167"],
+		"Warwickshire": [1, "52.5667", "-1.55"],
+		"Barnsley": [1, "53.5598", "-1.4952"],
+		"Gloucestershire": [17, "51.8333", "-2.25"],
+		"Buckinghamshire": [1, "51.6333", "-0.7667"]
+	}],
+	"Qatar": [1, {}],
+	"Madagascar": [1, {}],
+	"Italy": [195, {
+		"Provincia di Forli": [1, "44.25", "11.9833"],
+		"Turin": [1, "45.05", "7.6667"],
+		"Provincia di Cremona": [1, "45.4667", "9.6"],
+		"Padua": [1, "45.5667", "11.9"],
+		"Provincia di Macerata": [1, "43.4", "13.5333"],
+		"Rome": [1, "41.9", "12.4833"],
+		"Provincia di Verona": [1, "45.3833", "11.05"],
+		"Trento": [2, "46.1667", "11.2167"],
+		"Venice": [1, "45.4386", "12.3267"],
+		"Provincia di Salerno": [1, "40.7167", "14.75"],
+		"Province of Monza and Brianza": [1, "45.5833", "9.2"],
+		"Provincia di Treviso": [1, "45.7444", "12.0828"],
+		"Provincia di Varese": [1, "45.8", "8.8333"],
+		"Provincia di Teramo": [1, "42.6833", "14.0167"],
+		"Provincia di Bergamo": [2, "45.6833", "9.7167"],
+		"Provincia di Bolzano": [6, "46.8833", "11.4167"],
+		"Provincia di Foggia": [1, "41.45", "15.5667"],
+		"Milan": [1, "45.4667", "9.2"],
+		"Provincia di Lecce": [1, "40.1667", "18.1667"],
+		"Catania": [1, "37.5021", "15.0872"],
+		"Provincia di Alessandria": [1, "44.8167", "9.0333"]
+	}],
+	"Georgia": [32, {
+		"K'alak'i T'bilisi": [1, "41.725", "44.7908"]
+	}],
+	"Spain": [406, {
+		"Girona": [1, "41.7848", "3.029"],
+		"Almeria": [1, "37.1681", "-1.9399"],
+		"A Coru\u5e3da": [3, "42.9436", "-9.1919"],
+		"Murcia": [1, "37.9833", "-1.1167"],
+		"Valladolid": [1, "41.6234", "-4.7455"],
+		"Biscay": [4, "43.3331", "-3.1137"],
+		"Araba / \u8115lava": [1, "43.05", "-3.0"],
+		"Seville": [1, "37.2829", "-5.9209"],
+		"Toledo": [1, "39.9614", "-3.9316"],
+		"Cantabria": [1, "43.4647", "-3.8044"],
+		"Guadalajara": [1, "40.6293", "-3.1639"],
+		"Alicante": [1, "38.7398", "-0.4398"],
+		"Barcelona": [1, "41.4805", "2.3164"],
+		"Madrid": [1, "40.4086", "-3.6922"],
+		"Navarre": [1, "42.8141", "-1.6412"],
+		"Leon": [4, "42.8707", "-5.0257"],
+		"Badajoz": [1, "38.8833", "-6.9667"],
+		"Valencia": [1, "39.4", "-0.4"]
+	}],
+	"Iran": [6, {
+		"Ostan-e Esfahan": [1, "32.7026", "51.1537"],
+		"Ostan-e Qazvin": [1, "36.2797", "50.0049"],
+		"Ostan-e Ardabil": [2, "38.2498", "48.2933"]
+	}],
+	"Serbia": [12, {}],
+	"Bulgaria": [40, {
+		"Burgas": [1, "42.5", "27.4667"],
+		"Oblast Ruse": [1, "43.8564", "25.9708"],
+		"Blagoevgrad": [1, "41.8394", "23.5"],
+		"Plovdiv": [1, "42.15", "24.75"],
+		"Sofia-Capital": [1, "42.6833", "23.3167"]
+	}],
+	"Northern Mariana Islands": [1, {}],
+	"Portugal": [17, {
+		"Lisbon": [3, "38.7167", "-9.1333"],
+		"Distrito de Braga": [1, "41.5503", "-8.4201"],
+		"Distrito do Porto": [1, "41.2083", "-8.2828"],
+		"Bragan\u83bda": [1, "41.8058", "-6.7572"]
+	}],
+	"Singapore": [102, {}],
+	"Vanuatu": [1, {}],
+	"Poland": [14975, {
+		"Lubusz": [1, "52.7368", "15.2288"],
+		"Silesian Voivodeship": [1, "49.6912", "19.1742"],
+		"Lublin Voivodeship": [1, "51.4629", "22.6078"],
+		"Masovian Voivodeship": [1, "52.25", "21.0"],
+		"Lower Silesian Voivodeship": [1, "51.1", "17.0333"],
+		"Greater Poland Voivodeship": [2, "52.4167", "16.9667"],
+		"Lesser Poland Voivodeship": [4, "50.0833", "19.9167"],
+		"Kujawsko-Pomorskie": [1, "52.5931", "19.0894"],
+		"Subcarpathian Voivodeship": [2, "50.0372", "22.0049"]
+	}],
+	"Estonia": [7, {
+		"Harju": [1, "59.4339", "24.7281"]
+	}],
+	"None": [2306, {}],
+	"Bermuda": [1, {}],
+	"Australia": [179, {
+		"New South Wales": [1, "-33.8615", "151.2055"],
+		"Queensland": [1, "-27.471", "153.0243"],
+		"Victoria": [1, "-37.8139", "144.9634"],
+		"South Australia": [2, "-34.9287", "138.5986"],
+		"Australian Capital Territory": [1, "-35.276", "149.1344"],
+		"Western Australia": [1, "-32.1315", "115.8591"]
+	}],
+	"Dominica": [1, {}],
+	"Guatemala": [1, {}],
+	"Saudi Arabia": [11, {
+		"Makkah Province": [1, "21.5169", "39.2192"]
+	}],
+	"Chile": [10, {
+		"Region de Los Rios": [1, "-39.8", "-73.2333"],
+		"Santiago Metropolitan": [4, "-33.45", "-70.6667"]
+	}],
+	"Slovakia": [10, {
+		"Zilinsky kraj": [1, "49.0333", "19.7333"]
+	}],
+	"Tunisia": [4, {}],
+	"France": [390, {
+		"Is\u732bre": [2, "45.1173", "5.7596"],
+		"Yvelines": [1, "48.7", "2.05"],
+		"North": [1, "50.3571", "3.5279"],
+		"Ain": [1, "46.2586", "6.1106"],
+		"Paris": [1, "48.8667", "2.3333"],
+		"Alpes-Maritimes": [1, "43.7136", "7.2595"],
+		"Hauts-de-Seine": [1, "48.8834", "2.2389"],
+		"H\u8305rault": [1, "43.6155", "3.1571"],
+		"Pyr\u8305n\u8305es-Atlantiques": [1, "43.5277", "-1.4656"],
+		"Vaucluse": [1, "43.9454", "4.8102"],
+		"Seine-et-Marne": [1, "48.9421", "2.6146"],
+		"Essonne": [1, "48.6333", "2.45"],
+		"Creuse": [3, "46.1667", "1.8667"],
+		"Somme": [1, "49.6478", "2.5699"],
+		"Val d'Oise": [1, "49.0", "2.3"],
+		"Var": [1, "43.4333", "6.7333"],
+		"Val-de-Marne": [1, "48.8147", "2.3607"],
+		"Pas-de-Calais": [1, "50.0667", "3.0643"],
+		"Bas-Rhin": [6, "48.6004", "7.7874"],
+		"Landes": [1, "43.9943", "-0.1043"]
+	}],
+	"Bahamas": [3, {}],
+	"Hong Kong": [158, {
+		"Kowloon City": [1, "22.3167", "114.1833"],
+		"Sha Tin": [1, "22.4", "114.2"],
+		"Southern": [1, "22.25", "114.15"]
+	}],
+	"Israel": [19, {
+		"Tel Aviv": [1, "32.0806", "34.8142"]
+	}],
+	"Colombia": [14, {
+		"Bogota D.C.": [2, "4.6492", "-74.0628"],
+		"Antioquia": [1, "6.2518", "-75.5636"]
+	}],
+	"Moldova": [8, {
+		"Municipiul Chisinau": [2, "47.0056", "28.8575"]
+	}],
+	"Morocco": [1, {}],
+	"Barbados": [1, {}],
+	"Philippines": [3, {}],
+	"Kenya": [37, {}],
+	"Czechia": [67, {
+		"Jihocesky kraj": [1, "49.261", "13.9051"],
+		"Plzensky kraj": [1, "49.3972", "13.2891"],
+		"Mesto Brno": [1, "49.2", "16.6333"],
+		"Hlavni mesto Praha": [1, "50.0833", "14.4667"],
+		"Okres Nachod": [2, "50.4167", "16.1667"],
+		"Okres Usti nad Labem": [1, "50.6667", "14.0333"],
+		"Karlovarsky kraj": [1, "50.3073", "12.9479"],
+		"Okres Ostrava-Mesto": [1, "49.8119", "18.2553"],
+		"Okres Praha-Vychod": [1, "49.9523", "14.6781"],
+		"South Moravian": [2, "49.2814", "16.5648"],
+		"Ustecky kraj": [1, "50.6997", "13.937"]
+	}],
+	"Indonesia": [60, {}],
+	"Cyprus": [2, {}],
+	"Antigua and Barbuda": [1, {}],
+	"Uganda": [17, {
+		"Kampala District": [2, "0.3156", "32.5656"]
+	}],
+	"Iceland": [1, {}],
+	"El Salvador": [1, {}],
+	"Romania": [333, {
+		"Judetul Timis": [1, "45.7494", "21.2272"],
+		"Judetul Sibiu": [1, "45.8", "24.15"],
+		"Arad": [1, "46.1833", "21.3167"],
+		"Judetul Cluj": [2, "46.7667", "23.6"],
+		"Bihor": [1, "47.0667", "21.9333"],
+		"Suceava": [3, "47.6333", "26.25"],
+		"Giurgiu": [1, "43.8833", "25.9667"]
+	}],
+	"Ukraine": [72, {
+		"Kyiv City": [2, "50.4333", "30.5167"],
+		"Vinnyts'ka Oblast'": [7, "49.2328", "28.481"],
+		"Luhans'ka Oblast'": [4, "48.9483", "38.4917"],
+		"Zakarpattia Oblast": [1, "48.4392", "22.7178"],
+		"Khersons'ka Oblast'": [1, "46.5691", "32.1478"],
+		"Donets'ka Oblast'": [1, "48.38", "38.3471"],
+		"Chernihivs'ka Oblast'": [1, "51.5055", "31.2849"],
+		"Kharkivs'ka Oblast'": [1, "49.9808", "36.2527"]
+	}],
+	"Lebanon": [3, {}],
+	"Armenia": [1, {}],
+	"Bosnia and Herzegovina": [1, {}],
+	"New Zealand": [37, {
+		"Canterbury": [1, "-43.1667", "172.7333"],
+		"Auckland": [1, "-36.8667", "174.7667"],
+		"Wellington": [2, "-41.3", "174.7833"]
+	}],
+	"Bangladesh": [2, {}],
+	"Netherlands": [331, {
+		"Provincie Limburg": [1, "50.95", "5.9667"],
+		"Provincie Overijssel": [5, "52.2195", "6.8912"],
+		"Provincie Drenthe": [1, "52.9947", "6.5632"],
+		"North Holland": [6, "52.35", "4.9167"],
+		"Provincie Gelderland": [1, "51.9798", "5.9256"],
+		"Provincie Utrecht": [1, "52.0333", "5.1667"],
+		"North Brabant": [1, "51.7586", "5.7394"],
+		"South Holland": [1, "52.1763", "4.5282"]
+	}],
+	"Switzerland": [293, {
+		"Saint Gallen": [1, "47.228", "8.826"],
+		"Zug": [1, "47.1779", "8.4208"],
+		"Thurgau": [1, "47.5582", "8.8985"],
+		"Bern": [1, "46.9392", "7.4346"],
+		"Lucerne": [1, "47.2337", "8.0773"],
+		"Basel-Landschaft": [10, "47.5212", "7.6884"],
+		"Zurich": [1, "47.3667", "8.55"],
+		"Ticino": [1, "46.1864", "9.0002"],
+		"Vaud": [2, "46.52", "6.63"],
+		"Uri": [1, "46.8655", "8.6547"]
+	}],
+	"Ireland": [75, {
+		"Dublin City": [6, "53.3331", "-6.2489"]
+	}],
+	"Honduras": [2, {
+		"Departamento de Francisco Morazan": [1, "14.1", "-87.2167"]
+	}],
+	"Turkey": [809, {
+		"Antalya": [31, "36.9081", "30.6956"],
+		"Ankara": [1, "39.9117", "32.8403"],
+		"Izmir": [156, "38.4127", "27.1384"],
+		"\u8266\u8c0brnak": [2, "37.1811", "41.9511"],
+		"Istanbul": [3, "41.0186", "28.9647"],
+		"Adana": [2, "37.0017", "35.3289"],
+		"Adiyaman": [241, "37.8264", "38.512"],
+		"Mersin": [1, "36.7328", "34.6442"],
+		"Van": [1, "38.3379", "43.1831"],
+		"Kocaeli": [1, "40.7669", "29.9169"]
+	}],
+	"Vatican City": [1, {}],
+	"Greece": [62, {
+		"Laconia": [2, "36.65", "23.0167"],
+		"Attica": [2, "37.9833", "23.7333"],
+		"Nomos Larisis": [1, "39.6372", "22.4203"],
+		"Nomos Irakleiou": [1, "35.325", "25.1306"]
+	}],
+	"Belarus": [10, {
+		"Minsk": [2, "53.9", "27.5667"]
+	}],
+	"Brazil": [157, {
+		"Estado de Minas Gerais": [1, "-19.9167", "-43.9333"],
+		"Federal": [1, "-15.7833", "-47.9167"],
+		"Estado do Rio Grande do Sul": [1, "-28.3833", "-53.9167"],
+		"Estado do Parana": [2, "-25.4167", "-49.25"],
+		"Rio de Janeiro": [1, "-22.9", "-43.2333"],
+		"Amazonas": [1, "-3.1133", "-60.0253"],
+		"Estado de Sao Paulo": [1, "-21.2833", "-51.85"]
+	}],
+	"United Arab Emirates": [7, {
+		"Abu Dhabi": [1, "24.4667", "54.3667"],
+		"Dubai": [1, "25.2582", "55.3047"]
+	}],
+	"Ecuador": [13, {
+		"Provincia de Pichincha": [2, "-0.2167", "-78.5"],
+		"Provincia del Guayas": [3, "-2.1667", "-79.9"],
+		"Provincia del Azuay": [1, "-2.8833", "-78.9833"]
+	}],
+	"Norway": [78, {
+		"Vestfold": [1, "59.3833", "10.4167"],
+		"Akershus": [1, "59.8333", "10.4333"],
+		"Oslo County": [1, "59.9167", "10.75"]
+	}],
+	"Russia": [131, {
+		"Tomskaya Oblast'": [4, "56.6006", "84.8864"],
+		"Arkhangelskaya": [1, "62.8792", "40.6757"],
+		"Leningrad": [1, "59.3825", "34.78"],
+		"Voronezhskaya Oblast'": [1, "51.672", "39.1843"],
+		"Tverskaya Oblast'": [1, "56.8605", "35.876"],
+		"Sverdlovskaya Oblast'": [1, "56.8519", "60.6122"],
+		"Kostromskaya Oblast'": [1, "57.7665", "40.9269"],
+		"Krasnodarskiy Kray": [1, "43.5992", "39.7257"],
+		"St.-Petersburg": [5, "59.8944", "30.2642"],
+		"Novosibirskaya Oblast'": [2, "55.0415", "82.9346"],
+		"Lipetskaya Oblast'": [1, "52.6031", "39.5708"],
+		"Moscow": [3, "55.7522", "37.6156"],
+		"Nizhegorodskaya Oblast'": [1, "56.3269", "44.0075"],
+		"Tul'skaya Oblast'": [1, "54.2021", "37.6443"],
+		"Krasnoyarskiy Kray": [1, "56.0184", "92.8672"]
+	}],
+	"Latvia": [19, {
+		"Tukuma Rajons": [4, "56.9675", "23.1567"],
+		"Ventspils Municipality": [2, "57.3894", "21.5606"]
+	}],
+	"Slovenia": [1, {}]
+}

@@ -1,0 +1,123 @@
+<div >
+    <div class="col-md-2" id="mytab" >
+        <div class="tile">
+            <div class="tile-title">全球扫描</div>
+            <div style="text-align: center;font: 24px sans-serif;">899283</div>
+        </div>
+        <div class="tile">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Country</th>
+                    <th>Count</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>{{country1_name}}</td>
+                    <td>{{country1_count}}</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>{{country2_name}}</td>
+                    <td>{{country2_count}}</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>{{country3_name}}</td>
+                    <td>{{country3_count}}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="tile" style="height: 350px">
+            <div class="tile-title">品牌统计</div>
+            <global-cameras></global-cameras>
+        </div>
+        <button class="tile-button" ng-click="Change_show_insecure()">威胁监控</button>
+    </div>
+    <div class="col-md-8">
+        <div class="tile">
+            <div class="mysearch tile-title clearfix" id="mysearch" style="z-index: 10">
+                <button ng-click="searchAction()" title="搜索"></button>
+                <!--<input ng-model="wanted" placeholder="请输入关键词（ip地址、国家）">-->
+                <div angucomplete-alt
+                     id="search-input"
+                     placeholder="请输入关键词（ip地址、国家）"
+                     pause="300"
+                     selected-object="selectedInfo"
+                     local-data="totalInfos"
+                     search-fields="ip,country"
+                     title-field="ip"
+                     description-field="country"
+                     minlength="3"
+                     match-class="highlight"
+                     override-suggestions="true"
+                     clear-selected="true">
+                </div>
+            </div>
+            <div id="tooltip" style="opacity: 0"></div>
+            <div id="canvas-map" style="z-index: 0" ></div>
+        </div>
+    </div>
+    <div class="col-md-2" id="mytab2">
+        <div class="tile">
+            <div class="tile-title">详细信息</div>
+            <camera-info></camera-info>
+        </div>
+        <div class="tile">
+            <div class="tile-title">服务统计</div>
+            <div id="radar-map" style="height: 280px">
+
+            </div>
+        </div>
+    </div>
+    <!-- 漏洞弹窗说明 -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog loophole-dialog" role="document">
+            <div class="modal-content loophole-content">
+                <div class="modal-header loophole-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel"><h3>设备详情</h3></h4>
+                </div>
+                <div class="modal-body loophole-body">
+                    <dl class="clearfix">
+                        <dt>设备IP：</dt>
+                        <dd>{{modelInfo.ip}}</dd>
+                    </dl>
+                    <dl class="clearfix">
+                        <dt>国家：</dt>
+                        <dd>{{modelInfo.country}}</dd>
+                    </dl>
+                    <dl class="clearfix">
+                        <dt>城市：</dt>
+                        <dd>{{modelInfo.city}}</dd>
+                    </dl>
+                    <dl class="clearfix">
+                        <dt>品牌型号：</dt>
+                        <dd>{{modelInfo.portinfo.app}}</dd>
+                    </dl>
+                    <dl class="clearfix">
+                        <dt>协议端口：</dt>
+                        <dd>{{modelInfo.portinfo.port}}</dd>
+                    </dl>
+                    <dl class="clearfix">
+                        <dt>设备类型：</dt>
+                        <dd>{{modelInfo.portinfo.device}}</dd>
+                    </dl>
+                    <dl class="clearfix">
+                        <dt>service：</dt>
+                        <dd>{{modelInfo.portinfo.service}}</dd>
+                    </dl>
+                    <dl class="clearfix">
+                        <dt>banner：</dt>
+                        <dd>{{modelInfo.portinfo.banner}}</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
